@@ -106,32 +106,91 @@
             b La Resolución 3202 de 2016, 
             b-none adoptó las siguientes RIAS y estableció que las Normas Técnicas de Detección temprana y Protección específica establecidas por Resolución 412 de 2000 serían derogadas una vez se definiera el Lineamiento técnico y operativo de la RPMS y la RIAMP.
     .h4.titulo-rosa.text-center  Adopción de RIAS - Resolución 3202 de 2016 
-
-
-    #t_2_1.pb-5.h2.mt-5 tema 2.1
-    .pb-5(v-for="item of 15")
-
-    #t_2_2.pb-5.h2 tema 2.2
-    .pb-5(v-for="item of 15")
-
-    #t_2_3.pb-5.h2 tema 2.3
-    .pb-5(v-for="item of 15")
-
-    #t_2_4.pb-5.h2 tema 2.4
-    .pb-5(v-for="item of 15")
-
-    #t_2_5.pb-5.h2 tema 2.5
-    .pb-5(v-for="item of 15")
-
-    #t_2_6.pb-5.h2 tema 2.6
-    .pb-5(v-for="item of 15")
-
-    #t_2_7.pb-5.h2 tema 2.7
-    .pb-5(v-for="item of 15")
-
-    #t_2_8.pb-5.h2 tema 2.8
-    .pb-5(v-for="item of 15")
-
+    div.cuadro-texto_azul2
+      p.text-center 
+        b Ruta integral para la promoción y mantenimiento de la Salud (RPMS)
+    div.tarjetas-avatar.my-5
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img14.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto
+            b Materno - Perinatal (RIAMP)
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img15.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto
+            b Alteraciones Nutricionales 
+            b-none (Desnutrición en menores de cinco años)
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img16.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto
+            b Enfermedades Infecciosas - ETV
+            br
+            b-none Chagas, Leishmaniosis, Malaria, Dengue, Chikungunya y Zika
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img17.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto
+            b Transtornos Asociados al uso de Spa
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img18.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto 
+            b Enfermedad Cardiovascular Aterogénica
+            b-none  (Hipertensión Arterial - HTA, Diabetes Mellitus)
+      .tarjeta-Avatar
+        img(src='@/assets/curso/img19.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja
+          p.text-center.my-auto 
+            b Cáncer
+            br 
+            b-none  Cáncer (Cáncer de mama y Cáncer de Cervix) 
+    .titulo-segundo
+      .h4  2.4 Estructura de la RIAS
+      p.my-5 Las RIAS plantean una estructura que reconoce en primera instancia los resultados en salud a los que debemos apuntar todos los agentes del sistema de salud; desde allí reconoce las intervenciones poblacionales, colectivas e individuales que según la evidencia disponible, permite aportar a dichos resultados en salud y plantea un marco amplio de acciones de gestión de la salud pública (Resolución 518 de 2015) que permiten garantizar que se brinden las intervenciones y se gestione desde la coordinación intersectorial las acciones que correspondan para afectar los determinantes sociales de la salud
+    figure.mb-3
+          img.img-col(src='@/assets/curso/img20.png', alt='Texto que describa la imagen')
+    p.text-center.mb-5 A continuación se definen las acciones de gestión e intervenciones en las Rutas 
+      br
+      |integrales de atención en salud que apuntan a resultados en salud. 
+    .h4.titulo-rosa Gestión e intervenciones en las RIAS 
+    p
+      b Basada en Resolución 3202 de 2016
+    TabsC.my-5
+      .py-3.py-md-4(titulo="Acciones de gestión")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen')
+          .col-md-6
+            .h4 Acciones de gestión
+            p La gestión de la salud pública, hace referencia al proceso dinámico, integral, sistemático y participativo, bajo el liderazgo y conducción de la autoridad sanitaria; está orientado a que las políticas, planes, programas y proyectos de salud pública se realicen de manera efectiva, coordinada y organizada, entre los diferentes actores del sistema de salud, junto con otros sectores del Gobierno, de las organizaciones sociales y privadas y la comunidad, con el propósito de alcanzar los resultados en salud. 
+      .py-3.py-md-4(titulo="Intervenciones poblacionales")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen')
+          .col-md-6
+            .h4 Intervenciones poblacionales
+            p Aquellas intervenciones en grupos poblacionales, áreas, jurisdicciones o instituciones con el fin de modificar los contextos sociales, físicos, económicos o legislativos para que estos favorezcan los cambios de comportamientos deseados.
+      .py-3.py-md-4(titulo="Intervenciones colectivas")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen')
+          .col-md-6
+            .h4 Intervenciones colectivas
+            p Es el conjunto de intervenciones, procedimientos o actividades para la promoción de la salud y la gestión del riesgo dirigidas a grupos poblacionales a lo largo del curso de la vida, definidas con fundamento en la evidencia disponible y en las prioridades de salud de cada territorio.
+      .py-3.py-md-4(titulo="Intervenciones individuales")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen')
+          .col-md-6
+            .h4 Intervenciones individuales
+            p Son aquellas dirigidas al individuo cuyo objetivo es lograr la atención integral en salud, que incluye acciones de promoción de la salud, detección temprana, protección específica, diagnóstico, tratamiento, rehabilitación y paliación.
+    p.my-5 Así mismo, las RIAS identifica los hitos o hechos claves asociados a resultados en salud en el marco del continuo de la atención o hitos; define unos indicadores que permiten realizar el seguimiento y evaluación, como también es de resaltar que define las responsabilidades de los actores del sector salud relacionados directamente con la implementación su seguimiento.
 </template>
 
 <script>
