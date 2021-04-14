@@ -21,8 +21,6 @@
 
   &--roja
     background-color: #EDF4FF
-    width: 258px
-    height: 250px
   &--amarilla
     background-color: $color-curso-c
 
@@ -65,3 +63,35 @@
     padding-top: 60px !important
     margin-top: -50px
     height: calc(100% - 50px)
+
+//TARJETAS NUMERADAS
+.tarjeta-numerada
+  border: solid 2px $color-curso-b
+  border-radius: 20px
+  position: relative
+  margin-left: 30px
+  &__numero
+    border-radius: 60px
+    width: 60px
+    height: 60px
+    background-color: $color-curso-d
+    display: inline-block
+    position: absolute  
+    left: 0
+    top: 25px
+    transform: translateX(-50%)
+    div
+      color: white
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+  &__cuadro  
+    border-radius: 10px
+    background-color: $color-curso-d
+    position: absolute 
+    bottom: 0
+    left: 0
+    transform: translateY(50%) translateX(100%)
+    p
+      color: white

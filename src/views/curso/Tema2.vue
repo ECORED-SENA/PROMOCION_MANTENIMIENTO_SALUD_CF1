@@ -65,11 +65,11 @@
             p 
               b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
               b-none (RPMS) Centrada en la promoción de la salud, la prevención del riesgo y la enfermedad; así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades. Aplica para toda la población residente en el territorio.
-    div.recuadro-rosa.my-5
-      div.cuadro-texto_azul.mt-5
+    .tarjeta-numerada.p-5.my-5
+      .tarjeta-numerada__cuadro.mt-5.p-3
         p.text-center Fisico y Motor / Socio - emocional / Cognitivo
-      div.circulo-numero
-        h4 1
+      .tarjeta-numerada__numero
+        .h4 1
       p.text-center 
         b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
       p.text-center.mb-3 Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
@@ -82,9 +82,9 @@
             p 
               b Rutas Integrales de Atención en Salud para grupos de riesgo.
               b-none  Tienen el objetivo de  identificar e intervenir oportunamente factores de riesgo, ya sea para evitar la aparición de una o varias condiciones específicas en salud o para realizar el diagnóstico, tratamiento, rehabilitación y paliación, según cada situación. 
-    div.recuadro-rosa.my-5
-      div.circulo-numero
-        h4 2
+    .tarjeta-numerada.p-5.my-5
+      .tarjeta-numerada__numero
+        .h4 2
       p.text-center 
         b Ruta integral de atención en salud para grupos de riesgo.
       p.text-center.mb-3 Acciones dirigidas a la identificación oportuna de factores de riesgo y su intervención.
