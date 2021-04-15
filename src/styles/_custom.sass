@@ -12,24 +12,25 @@
 .img-col
   width: 50%
   margin: auto
+  &--2
+    width: 15%
+    margin: auto  
 .titulo-rosa
   color: #F579A8
 //?ESTILOS TEMA 2
-.lista-separada
+.lista-ul--color
   display: inline-block
-  p
-    margin-left: 5rem
-.cuadro-texto_azul
-  border-radius: 10px
-  background-color: $color-curso-d
-  display: inline-block
-  position: absolute 
-  bottom: 0
-  left: 0
-  transform: translateY(50%) translateX(50%)
-  p
-    width: 100%
-    color: white
+  .lista-separada
+    display: flex
+    i
+      display: inline-block
+    
+    p
+      margin-left: 1rem
+      display: inline-block
+
+
+
 .cajon--rojo
   background-color: #FFE5EF
 .cuadro-texto_azul2
@@ -60,5 +61,12 @@
       padding: 0 auto
       p
         padding: 1rem
+.tarjetas
+  &--rosa
+    background-color: #FFE5EF
+    margin: auto
+  &--azul
+    background-color: #CCDCF7
+    margin: auto
 
     

@@ -16,22 +16,22 @@
         ul.lista-ul--color
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2 Son una herramienta centrada en las personas que ubica en un lugar estratégico el ejercicio del derecho a la salud.
+            p Son una herramienta centrada en las personas que ubica en un lugar estratégico el ejercicio del derecho a la salud.
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2 Están orientadas a incidir en los resultados en salud de impacto e intermedios, así como en la calidad de la atención.
+            p Están orientadas a incidir en los resultados en salud de impacto e intermedios, así como en la calidad de la atención.
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2 Definen la gestión y atenciones requeridas para anticiparse a la contingencia con atenciones de promoción de la salud. 
+            p Definen la gestión y atenciones requeridas para anticiparse a la contingencia con atenciones de promoción de la salud. 
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2 Permite pasar de un abordaje disciplinar a un abordaje multidisciplinar y de un abordaje fragmentado a un abordaje integral de los sujetos. 
+            p Permite pasar de un abordaje disciplinar a un abordaje multidisciplinar y de un abordaje fragmentado a un abordaje integral de los sujetos. 
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2 Reconoce la familia como sujeto de atención en salud y tiene en cuenta el contexto familiar en la salud de las personas. Así mismo reconoce que estos hacen parte de una comunidad.
+            p Reconoce la familia como sujeto de atención en salud y tiene en cuenta el contexto familiar en la salud de las personas. Así mismo reconoce que estos hacen parte de una comunidad.
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p.mx-2.mb-md-5.mb-lg-0 Plantea intervenciones integrales, complementarias y anticipatorias, que contribuyan a la garantía de condiciones para el desarrollo humano, teniendo en cuenta las ventanas de oportunidad en el desarrollo integral de las personas en sus diferentes momentos del curso de la vida.
+            p Plantea intervenciones integrales, complementarias y anticipatorias, que contribuyan a la garantía de condiciones para el desarrollo humano, teniendo en cuenta las ventanas de oportunidad en el desarrollo integral de las personas en sus diferentes momentos del curso de la vida.
       .col-lg-6.align-self-end
         figure
           img.img-col(src='@/assets/curso/img9.svg', alt='Texto que describa la imagen')
@@ -66,7 +66,7 @@
               b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
               b-none (RPMS) Centrada en la promoción de la salud, la prevención del riesgo y la enfermedad; así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades. Aplica para toda la población residente en el territorio.
     .tarjeta-numerada.p-5.my-5
-      .tarjeta-numerada__cuadro.mt-5.p-3
+      .tarjeta-numerada__cuadro.p-3
         p.text-center Fisico y Motor / Socio - emocional / Cognitivo
       .tarjeta-numerada__numero
         .h4 1
