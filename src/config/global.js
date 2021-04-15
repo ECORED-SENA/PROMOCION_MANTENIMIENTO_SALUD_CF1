@@ -149,38 +149,22 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Astrid Lili Puerta',
-      cargo: 'Experta temática',
-      centro: 'Centro Agropecuario de Buga',
-      regional: 'Regional valle',
+      nombre: [
+        'Mónica Genith Castro',
+        'Lía Marcela Gúiza',
+        'Natalia Munarth',
+        'Magaly Jaimes',
+        'Mily Ramírez',
+        'Aura Lucia Toloza',
+      ],
+      cargo: 'Profesional Especializado ',
+      centro:
+        'Ministerio de Salud - Dirección de promoción y prevención - grupo curso de vida',
     },
     {
-      nombre: 'Javier Enrique Santana',
-      cargo: 'Experto temático',
-      centro: 'Centro de Gestión Industrial',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Michael Andrés Cortés Caro',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Mauricio Jiménez Fajardo',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Manuel Alejandro Garzón Cárdenas',
-      cargo: 'Experto temático',
-      centro: 'Deutsche Gesellschaft für',
-      regional: 'Internationale Zusammenarbeit (GIZ)',
-    },
-    {
-      nombre: 'Liliana Victoria Morales Gualdrón',
+      nombre: 'Leidy Carolina Arias Aguirre',
       cargo: 'Diseñador instruccional',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
+      centro: 'SENA - Centro de Diseño y metrología',
     },
     {
       nombre: 'Carlos Andrés Rodríguez',
@@ -189,7 +173,7 @@ export const creditos = {
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Julieth Paola Vital López',
+      nombre: 'Sandra Patricica Hoyos Sepúlveda',
       cargo: 'Revisora de estilo',
       centro: 'Centro para la Industria de la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
@@ -205,11 +189,11 @@ export const creditos = {
       cargo: 'Integración de recursos y pruebas',
     },
     {
-      nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+      nombre: ['Carlos Julian Ramirez', 'Wilson Andres Arenales Caceres'],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: 'Edward Leonardo Pico Cabra',
+      nombre: 'Camilo Andres Bolaño Rey',
       cargo: 'Desarrollo Front-End',
     },
     {

@@ -179,22 +179,15 @@
             p.ms-3 Participación Social: Promover escenarios de encuentro, deliberación, concertación y organización, teniendo presente los mecanismos y espacios de participación social en salud normados, así como los promovidos por otros sectores y organizaciones comunitarias de base.
     figure.p-3.my-5
           img(src='@/assets/curso/img25.svg', alt='Texto que describa la imagen')
-    p Intervenciones dirigidas a grupos o colectivos  de personas que apuestan por promover el desarrollo de capacidades en los sujetos, favorecer el empoderamiento de los individuos, generar entornos saludables, protectores, que favorezcan el desarrollo humano y contribuyan al  bienestar individual y colectivo, así como a  la gestión integral del riesgo en salud. Tiene como unidad de gestión los entornos: Institucional (incluye los servicios de salud como las poblaciones institucionalizadas), hogar, educativo, comunitario, laboral. 
-    .tarjeta.tarjeta--amarilla.p-3.mb-5.mx-5.my-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/img26.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Intervenciones Colectivas
-              p.text-small Son en total 11 tecnologías que se pueden incorporar en el Plan de Salud Pública de Intervenciones Colectivas (PSPIC) de cada territorio (municipio, distrito y departamento). 
+    p.mb-5 Intervenciones dirigidas a grupos o colectivos  de personas que apuestan por promover el desarrollo de capacidades en los sujetos, favorecer el empoderamiento de los individuos, generar entornos saludables, protectores, que favorezcan el desarrollo humano y contribuyan al  bienestar individual y colectivo, así como a  la gestión integral del riesgo en salud. Tiene como unidad de gestión los entornos: Institucional (incluye los servicios de salud como las poblaciones institucionalizadas), hogar, educativo, comunitario, laboral. 
+    figure
+      img(src="@/assets/curso/img26.svg" style="width:70px").m-auto  
+    .h4.titulo-rosa.text-center.mt-3 Intervenciones colectivas en entornos - RPMS
+    p.text-center.px-5.mx-5 Son en total 11 tecnologías que se pueden incorporar en el Plan de Salud Pública de Intervenciones Colectivas 
+      b (PSPIC) 
+      b-none de cada territorio (municipio, distrito y departamento).
 
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    .h4.titulo-rosa Intervenciones colectivas en entornos - RPMS
+
     figure.p-3.my-5
           img(src='@/assets/curso/img27.svg', alt='Texto que describa la imagen')
     .h4.titulo-rosa Individuales
