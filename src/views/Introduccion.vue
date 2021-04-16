@@ -9,11 +9,8 @@
           i.fas.fa-info
       .h3 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
+    figure.my-5
+      img.img-col(src='@/assets/curso/intro.svg', alt='Texto que describa la imagen' style='width:60%')
     p.mb-5 La Atención Integral en Salud es un concepto que organiza la acción del sector salud y otros sectores en el marco de la garantía del derecho a la salud. Las Rutas integrales de atención en salud son una herramienta que permite articular los esfuerzos de los actores propios y de otros sectores, apuntando al logro de los resultados en salud ubicados en los sujetos, por medio de los procesos de gestión que se vinculan a escenarios de atención que potencian la acción organizada y promueven la capacidad de agencia en las personas, familias y comunidades.
       br
       br

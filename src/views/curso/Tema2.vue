@@ -7,9 +7,9 @@
       .titulo-principal__numero
         .h3 2
       .h3 Generalidades y principios
-    p.mb-5 Son una herramienta de obligatorio cumplimiento, establecidas en el marco de la Política PAIS y la Resolución 3202 de 2016, que contribuyen a que las personas, familias y comunidades a que alcancen resultados en salud teniendo en cuenta las particularidades del territorio donde viven, se relacionan y se desarrollan. Permiten orientar y ordenar la gestión de la atención integral en salud a cargo de los actores del Sistema General  de Seguridad Social en Salud -SGSSS- de manera continua y consecuente con la situación y características de cada territorio, así como la gestión intersectorial para la afectación de los determinantes sociales de la salud. Integran además las atenciones individuales, colectivas y poblacionales para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación y plantea las acciones de cuidado que se esperan del individuo para el mantenimiento o recuperación de su salud.
+    p.mb-3 Son una herramienta de obligatorio cumplimiento, establecidas en el marco de la Política PAIS y la Resolución 3202 de 2016, que contribuyen a que las personas, familias y comunidades a que alcancen resultados en salud teniendo en cuenta las particularidades del territorio donde viven, se relacionan y se desarrollan. Permiten orientar y ordenar la gestión de la atención integral en salud a cargo de los actores del Sistema General  de Seguridad Social en Salud -SGSSS- de manera continua y consecuente con la situación y características de cada territorio, así como la gestión intersectorial para la afectación de los determinantes sociales de la salud. Integran además las atenciones individuales, colectivas y poblacionales para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación y plantea las acciones de cuidado que se esperan del individuo para el mantenimiento o recuperación de su salud.
     figure.mb-5
-      img(src='@/assets/curso/img8.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/img8.svg', alt='Texto que describa la imagen' style='width:60%').m-auto
     .h4.titulo-rosa Postulados orientadores de las Rutas Integrales de Atención en Salud (RIAS)
     .row
       .col-lg-6
@@ -60,14 +60,12 @@
     .h4.titulo-rosa La resolución 3202 de 2016 define 3 tipos de RIAS
     ol.lista-ol--cuadro
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.p-3
               span a
             p 
               b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
               b-none (RPMS) Centrada en la promoción de la salud, la prevención del riesgo y la enfermedad; así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades. Aplica para toda la población residente en el territorio.
     .tarjeta-numerada.p-5.my-5
-      .tarjeta-numerada__cuadro.p-3
-        p.text-center Fisico y Motor / Socio - emocional / Cognitivo
       .tarjeta-numerada__numero
         .h4 1
       p.text-center 
@@ -75,9 +73,11 @@
       p.text-center.mb-3 Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
       figure.mb-3
           img(src='@/assets/curso/img12.svg', alt='Texto que describa la imagen')
+      .tarjeta-numerada__cuadro.p-3
+        p.text-center Fisico y Motor / Socio - emocional / Cognitivo
     ol.lista-ol--cuadro
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.p-3
               span b
             p 
               b Rutas Integrales de Atención en Salud para grupos de riesgo.
@@ -96,7 +96,7 @@
       | En este grupo se encuentran las 16 RIAS para población con riesgo o presencia de: i) alteraciones cardio – cerebro – vascular – metabólicas manifiestas*; ii) enfermedades respiratorias crónicas; iii) alteraciones nutricionales*; iv) trastornos mentales y del comportamiento manifiestos debido a uso de sustancias psicoactivas y adicciones*; v) trastornos psicosociales y del comportamiento; vi) alteraciones en la salud bucal; vii) cáncer*; viii) enfermedades infecciosas*; ix) zoonosis y agresiones por animales; x) enfermedad y accidentes laborales; xi) agresiones, accidentes y traumas; xii) enfermedades y accidentes relacionados con el medio ambiente; xiii) enfermedades huérfanas; xiv) trastornos visuales y auditivos; xv) trastornos degenerativos, neuropatías y autoinmunes y xvi) RIAMP.
     ol.lista-ol--cuadro.mb-5
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.p-3
               span c
             p 
               b Ruta integral de atención en salud para eventos específicos.
@@ -106,7 +106,7 @@
             b La Resolución 3202 de 2016, 
             b-none adoptó las siguientes RIAS y estableció que las Normas Técnicas de Detección temprana y Protección específica establecidas por Resolución 412 de 2000 serían derogadas una vez se definiera el Lineamiento técnico y operativo de la RPMS y la RIAMP.
     .h4.titulo-rosa.text-center  Adopción de RIAS - Resolución 3202 de 2016 
-    div.cuadro-texto_azul2
+    .cuadro-texto_azul2
       p.text-center 
         b Ruta integral para la promoción y mantenimiento de la Salud (RPMS)
     div.tarjetas-avatar.my-5
@@ -148,9 +148,9 @@
             b-none  Cáncer (Cáncer de mama y Cáncer de Cervix) 
     .titulo-segundo
       .h4  2.4 Estructura de la RIAS
-      p.my-5 Las RIAS plantean una estructura que reconoce en primera instancia los resultados en salud a los que debemos apuntar todos los agentes del sistema de salud; desde allí reconoce las intervenciones poblacionales, colectivas e individuales que según la evidencia disponible, permite aportar a dichos resultados en salud y plantea un marco amplio de acciones de gestión de la salud pública (Resolución 518 de 2015) que permiten garantizar que se brinden las intervenciones y se gestione desde la coordinación intersectorial las acciones que correspondan para afectar los determinantes sociales de la salud
-    figure.mb-3
-          img.img-col(src='@/assets/curso/img20.png', alt='Texto que describa la imagen')
+    p.my-3 Las RIAS plantean una estructura que reconoce en primera instancia los resultados en salud a los que debemos apuntar todos los agentes del sistema de salud; desde allí reconoce las intervenciones poblacionales, colectivas e individuales que según la evidencia disponible, permite aportar a dichos resultados en salud y plantea un marco amplio de acciones de gestión de la salud pública (Resolución 518 de 2015) que permiten garantizar que se brinden las intervenciones y se gestione desde la coordinación intersectorial las acciones que correspondan para afectar los determinantes sociales de la salud
+    figure
+          img.img-col(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen').my-5
     p.text-center.mb-5 A continuación se definen las acciones de gestión e intervenciones en las Rutas 
       br
       |integrales de atención en salud que apuntan a resultados en salud. 
@@ -191,6 +191,7 @@
             .h4 Intervenciones individuales
             p Son aquellas dirigidas al individuo cuyo objetivo es lograr la atención integral en salud, que incluye acciones de promoción de la salud, detección temprana, protección específica, diagnóstico, tratamiento, rehabilitación y paliación.
     p.my-5 Así mismo, las RIAS identifica los hitos o hechos claves asociados a resultados en salud en el marco del continuo de la atención o hitos; define unos indicadores que permiten realizar el seguimiento y evaluación, como también es de resaltar que define las responsabilidades de los actores del sector salud relacionados directamente con la implementación su seguimiento.
+
 </template>
 
 <script>
