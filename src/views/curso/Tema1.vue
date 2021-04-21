@@ -46,7 +46,7 @@
       img.img-col(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
       .h4.text-center Determinantes Sociales
       figcaption.mb-5 Figura 2. Marco conceptual de la Política de Atención Integral en Salud.
-    .h4.titulo-rosa Enfoque de cuidado de la salud: 
+    .h4.titulo-rosa Atención primaria en salud: 
     p.mb-5  Esta estrategia reconocida desde de la Declaración de  Alma Atta<sup>1</sup> de acuerdo a la Conferencia Internacional sobre Atención Primaria de Salud del año 1978, donde  se plantea la gestión intersectorial articulada a una atención en salud que se acerque a los sujetos y a sus entornos; partiendo de una integración de las atenciones individuales y colectivos, así como de los diferentes niveles de complejidad de los servicios de salud y en reconocimiento de la voz de las comunidades. Parte de reconocer métodos, tecnologías y prácticas validadas en la evidencia disponible y socialmente aceptadas, que mejoren la gestión en los servicios de salud aumentando su capacidad resolutiva, favoreciendo la territorialización y adscripción poblacional,  así como el desarrollo de escenarios de atención multidisciplinarios e integrales en salud.
     p.fst-italic <sup>1</sup>El evento de salud pública más importante en su momento, planteando la necesidad de desplegar acciones por parte de todos los países, bajo el lema «Salud para todos en el año 2000». Disponible en:
       a.anexo.my-4(:href="obtenerLink('/downloads/Alma-Ata-1978Declaracion.pdf')" target="_blank")
@@ -76,7 +76,7 @@
             img.img-col(src='@/assets/curso/img5.svg', alt='Texto que describa la imagen')
         .col-lg-6
           p.mt-5 La Política reseña esas situaciones que pueden generar mayor vulnerabilidad para el ejercicio del derecho a la salud y que requieren precisar mecanismos y esfuerzos que logren disminuir las brechas de equidad evidenciadas; reconoce por demás, que los sujetos tienen una capacidad de agencia y la respuesta en salud debe partir de ese reconocimiento del sujeto, como ser integral; y finalmente a partir de esta comprensión denota como esencial, avanzar en la adecuación de los servicios y de los procesos de gestión para responder de manera pertinente a las necesidades y  potencialidades de las poblaciones en contexto de sus territorios. 
-      .h4.titulo-rosa Atención primaria en salud:
+      .h4.titulo-rosa Enfoque de cuidado de la salud:
       p.mb-5 El enfoque de cuidado se entiende como las capacidades, decisiones y acciones que el individuo, la comunidad y el Estado adoptan para proteger la salud propia, de las familias, de la comunidad y del territorio. Se sustenta en el autocuidado e involucra una condición dinámica que integra en diferentes momentos de su vida su capacidad para acumular autonomía para desarrollar lo que la persona quiere emprender; en especial el capital de salud, relacionado con las decisiones que toma en relación con su apoyo y socialización.
       .h4.text-center.mt-5 Curso de vida y cuidado de la salud
       figure.my-5
