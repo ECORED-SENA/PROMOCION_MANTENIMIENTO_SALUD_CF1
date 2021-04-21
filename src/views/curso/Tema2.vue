@@ -62,7 +62,7 @@
     .h4.titulo-rosa La resolución 3202 de 2016 define 3 tipos de RIAS
     figure.mb-3
           img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width:80%').m-auto
-          figcaption.my-5 Figura 10. Ordenadores de las RIAS.
+          figcaption.my-5 Figura 6. Ordenadores de las RIAS.
 
     p Las atenciones en salud, así como la gestión requerida para garantizarlas, están ordenadas para responder a un ámbito territorial (urbano, rural, rural disperso) en el que las personas habitan, según su momento de curso de vida, considerando como sujetos de atención a familias y comunidades (destinatarios) y considerando los diferentes  entornos en los que desarrollan su vida y donde pueden ser abordados (comunitario, laboral, educativo, hogar, institucional).                             
       br
@@ -211,7 +211,7 @@
     p.my-3 Las RIAS plantean una estructura que reconoce en primera instancia los resultados en salud a los que debemos apuntar todos los agentes del sistema de salud; desde allí reconoce las intervenciones poblacionales, colectivas e individuales que según la evidencia disponible, permite aportar a dichos resultados en salud y plantea un marco amplio de acciones de gestión de la salud pública (Resolución 518 de 2015) que permiten garantizar que se brinden las intervenciones y se gestione desde la coordinación intersectorial las acciones que correspondan para afectar los determinantes sociales de la salud.
     figure
           img.img-col(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen').my-5
-          figcaption.mb-5 Figura 13. Adopción de RIAS - Resolución 3202 de 2016.
+          figcaption.mb-5 Figura 7. Adopción de RIAS - Resolución 3202 de 2016.
     p.text-center.mb-5 A continuación se definen las acciones de gestión e intervenciones en las Rutas 
       br
       |integrales de atención en salud que apuntan a resultados en salud. 

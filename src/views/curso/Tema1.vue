@@ -65,7 +65,8 @@
       figure.my-5
         img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
       .h4.titulo-rosa Enfoque diferencial de territorios y poblaciones: 
-      p.mb-5 La política identifica la integralidad desde el reconocimiento de los ámbitos territoriales donde las personas, familias y comunidades habitan y desarrollan su trayectoria vital; desde allí reconoce así mismo, las particularidades y condiciones que le asisten a las personas, según su momento de curso de vida, haciendo un llamado al reconocimiento del género como determinante y en articulación con los demás diferenciales que le son propios a cada uno (pasando por lo étnico, la diversidad sexual, la condición de víctima del conflicto armado o con condición de discapacidad entre otras). 
+      p.mb-5 La política identifica la integralidad desde el reconocimiento de los ámbitos territoriales donde las personas, familias y comunidades habitan y desarrollan su trayectoria vital; desde allí reconoce así mismo, las particularidades y condiciones que le asisten a las personas, según su momento de curso de vida, haciendo un llamado al reconocimiento del género como determinante y en articulación con los demás diferenciales que le son propios a cada uno (pasando por lo étnico, la diversidad sexual, la condición de víctima del conflicto armado o con condición de discapacidad entre otras).
+      figcaption.mb-5 Figura 3. Proceso para la Gestión Integral de del Riesgo en Salud  
       figure.my-5
         img.img-col(src='@/assets/curso/img4.svg', alt='Texto que describa la imagen')
       p.mb-5 Las personas están determinadas por varias de estas condiciones, lo cual es abordado desde el enfoque interseccional, que permite entender que los procesos de salud  – enfermedad; las necesidades asociadas y las respuestas que cada uno puede dar frente a las situaciones son diferentes si vive en zona rural o urbana, es mujer u hombre, indígena o sin pertenencia étnica, joven o adulto mayor, si presentó o no una discapacidad, además del contexto socioeconómico y relacional (redes de apoyo) que se tengan con sus  familias. 
@@ -78,15 +79,17 @@
       .h4.titulo-rosa Atención primaria en salud:
       p.mb-5 El enfoque de cuidado se entiende como las capacidades, decisiones y acciones que el individuo, la comunidad y el Estado adoptan para proteger la salud propia, de las familias, de la comunidad y del territorio. Se sustenta en el autocuidado e involucra una condición dinámica que integra en diferentes momentos de su vida su capacidad para acumular autonomía para desarrollar lo que la persona quiere emprender; en especial el capital de salud, relacionado con las decisiones que toma en relación con su apoyo y socialización.
       .h4.text-center.mt-5 Curso de vida y cuidado de la salud
-      figure.mt-5
-            img(src='@/assets/curso/img6.svg', alt='Texto que describa la imagen')
+      figure.my-5
+            img(src='@/assets/curso/img6.svg', alt='Texto que describa la imagen').mb-5
+            figcaption.mb-5 Figura 4. Curso de vida y cuidado de la salud 
       .row.my-5
         .col-lg-5
-          p.pe-5.my-5 También involucra el deber de la sociedad y de los sistemas para realizar acciones que permitan ganancias en salud. Se relaciona con el curso de vida y parte de reconocer diferentes esferas del cuidado: el cuidar de sí, de los otros y del entorno, lo que implica generar oportunidades de desarrollo y condiciones para la protección y el bienestar, promoviendo la convivencia, la atención hacia lo público, la solidaridad, la cultura de la seguridad social y el fortalecimiento de redes de apoyo familiar y social. 
+          p.pe-5.my-5 También involucra el deber de la sociedad y de los sistemas para realizar acciones que permitan ganancias en salud. Se relaciona con el curso de vida y parte de reconocer diferentes esferas del cuidado: el cuidar de sí, de los otros y del entorno, lo que implica generar oportunidades de desarrollo y condiciones para la protección y el bienestar, promoviendo la convivencia, la atención hacia lo público, la solidaridad, la cultura de la seguridad social y el fortalecimiento de redes de apoyo familiar y social.
+      
         .col-lg-7
           figure.mb-5
             img.img-col(src='@/assets/curso/img7.svg', alt='Texto que describa la imagen').mb-3202
-            figcaption Figura 7. Esferas del cuidado
+            figcaption Figura 5. Esferas del cuidado
     .h4.titulo-rosa Enfoques vinculados a la Política de Atención Integral en Salud
     TabsA.mb-5
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Enfoque de Derechos")
