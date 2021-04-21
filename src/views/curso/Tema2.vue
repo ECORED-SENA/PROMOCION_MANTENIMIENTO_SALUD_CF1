@@ -41,7 +41,7 @@
       .col-lg-6.order-lg-0.order-md-1.order-sm-1
         figure
           img.img-col.mt-sm-5(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mb-5
         ul.lista-ul--color
           li.lista-separada 
             i.fas.fa-check.mx-2
@@ -57,18 +57,19 @@
             p.mx-2.mb-md-5.mb-lg-0 La operación de las RIAS reconoce el 
               b territorio como unidad base 
               b-none donde se integra el sistema de salud y los agentes responsables de garantizar la atención integral en salud.
-    .titulo-segundo
-      .h4  2.2 Ordenadores de las RIA
-    .h4.titulo-rosa La resolución 3202 de 2016 define 3 tipos de RIAS
+    .titulo-segundo.my-5
+      .h4  2.2 Ordenadores de las RIAS
     figure.mb-3
           img(src='@/assets/curso/img30.svg', alt='Texto que describa la imagen' style='width:80%').m-auto
           figcaption.my-5 Figura 6. Ordenadores de las RIAS.
 
-    p Las atenciones en salud, así como la gestión requerida para garantizarlas, están ordenadas para responder a un ámbito territorial (urbano, rural, rural disperso) en el que las personas habitan, según su momento de curso de vida, considerando como sujetos de atención a familias y comunidades (destinatarios) y considerando los diferentes  entornos en los que desarrollan su vida y donde pueden ser abordados (comunitario, laboral, educativo, hogar, institucional).                             
+    p.mb-5 Las atenciones en salud, así como la gestión requerida para garantizarlas, están ordenadas para responder a un ámbito territorial (urbano, rural, rural disperso) en el que las personas habitan, según su momento de curso de vida, considerando como sujetos de atención a familias y comunidades (destinatarios) y considerando los diferentes  entornos en los que desarrollan su vida y donde pueden ser abordados (comunitario, laboral, educativo, hogar, institucional).                             
       br
       br
       |Para el caso de las atenciones individuales el ordenador que prevalece y ordena son las personas según su momento de curso de vida (primera infancia, infancia, adolescencia, juventud, adultez, vejez).  Las intervenciones colectivas deben articular el abordaje en los entornos de tal manera que se brinden atenciones integrales e integradas que respondan a las características de los sujetos que se encuentran en los mismos, manteniendo presente el momento de curso de vida de las personas.
-
+    .titulo-segundo
+      .h4  2.3 Tipos de RIAS
+    .h4.titulo-rosa La resolución 3202 de 2016 define 3 tipos de RIAS
     ol.lista-ol--cuadro.my-5
           li 
             .lista-ol--cuadro__vineta.p-3
@@ -161,10 +162,17 @@
             p 
               b Ruta integral de atención en salud para eventos específicos.
               b-none  Estas rutas se definen a partir de aquellos eventos específicos priorizados por RIAS de riesgo. Se orientan al tratamiento, rehabilitación y paliación, según sea el caso.
+    .tarjeta-numerada.p-5.my-5
+      .tarjeta-numerada__numero
+        .h4 3
+      p
+        b Rutas integrales de atención especifica
+      p.mb-3 Acciones de recuperación, rehabilitación y palpación
     .cajon--rojo.p-4.mb-5
           p 
             b La Resolución 3202 de 2016, 
             b-none adoptó las siguientes RIAS y estableció que las Normas Técnicas de Detección temprana y Protección específica establecidas por Resolución 412 de 2000 serían derogadas una vez se definiera el Lineamiento técnico y operativo de la RPMS y la RIAMP.
+    
     .h4.titulo-rosa.text-center  Adopción de RIAS - Resolución 3202 de 2016 
     .cuadro-texto_azul2
       p.text-center 
