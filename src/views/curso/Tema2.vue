@@ -167,7 +167,7 @@
         .h4 3
       p
         b Rutas integrales de atención especifica
-      p.mb-3 Acciones de recuperación, rehabilitación y palpación
+      p.mb-3 Acciones de recuperación, rehabilitación y paliación
     .cajon--rojo.p-4.mb-5
           p 
             b La Resolución 3202 de 2016, 
