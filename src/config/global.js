@@ -161,13 +161,13 @@ export const creditos = {
     },
     {
       nombre: 'Leidy Carolina Arias Aguirre',
-      cargo: 'Diseñador instruccional',
+      cargo: 'Diseñadora instruccional',
       centro: 'Centro de Diseño y Metrología',
       regional: 'Regional Distrito Capital',
     },
     {
       nombre: 'Sandra Patricica Hoyos Sepúlveda',
-      cargo: 'Evaluador Instruccional ',
+      cargo: 'Evaluadora Instruccional ',
       centro: 'Centro para la Industria de la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
     },
