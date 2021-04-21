@@ -126,7 +126,7 @@
             p Personas con detección temprana de alteraciones y riesgos en salud.
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p Personas que ejercen sus derechos sexuales y reproductivos.(detección temprana y protección específica).
+            p Personas que ejercen sus derechos sexuales y reproductivos.
           li.lista-separada 
             i.fas.fa-check.mx-2
             p Personas con prácticas que favorecen el establecimiento de relaciones sanas y constructivas.
@@ -285,6 +285,9 @@
           .h6
             b Suministro de medicamentos e insumos relacionados con eventos de interés en salud pública:  
           p Enfermedades infecciosas desatendidas (desparasitación masiva, tracoma); estrategia de reducción de daños y riesgos en personas que se inyectan drogas, otros eventos de interés en salud pública definidos por el Ministerio de Salud y Protección Social.
+            br
+            br
+            | Estas intervenciones, procedimientos o actividades están ordenadas por entorno, responden de manera especial a la caracterizacion y deben considerar a los sujetos, familia y comunidades que habitan o desarrollan su trayectoria en ese entorno. 
 
 
     .h4.titulo-rosa.mt-3 Intervenciones colectivas en entornos - RPMS
