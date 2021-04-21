@@ -4,18 +4,7 @@ section
 
   //- Desarrollo de contenidos
   #contenidos.pb-5
-  .container.tarjeta.tarjeta__template--azul-claro.resultados.px-3.py-4.px-sm-5
-    .titulo__template--a.titulo-resultados
-      span.h6 Resultados<br>de aprendizaje
-    div
-      p 
-        b 230101257-01 
-        b-none - Reconocer las generalidades del PAI y la infección por el SARS -2 COVID 19 según lineamientos del Ministerio de Salud y Protección Social.
-      br
-      p.mt-2 
-        b 230101257-02 
-        b-none - Cumplir con lineamientos técnicos y operativos de la vacunación contra el covid19 de acuerdo con orientaciones del ministerio de salud y protección social.
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mt-5
+  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5
     .titulo__template--a.mb-4
       span.h6 Desarrollo<br>de contenidos
 

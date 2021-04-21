@@ -73,7 +73,7 @@
             p Incluir nuevas finalidades: valoración integral en Salud y Educación en salud que se complementan con las finalidades anteriores (detección temprana y protección específica).
           li.lista-separada 
             i.fas.fa-check.mx-2
-            p Incluir nuevas finalidades: valoración integral en Salud y Educación en salud que se complementan con las finalidades anteriores (detección temprana y protección específica).
+            p Posibilitar la prestación en los diferentes entornos de las intervenciones individuales con cumplimiento de calidad.
     .titulo-segundo
       .h4.mt-5  3.1. Resultados en Salud
     p Una de las apuestas esenciales planteadas en las RIAS y que se concretan en la RPMS y RIAMP son los resultados en salud como apuesta central en la que deben combinarse los esfuerzos de todos los actores. Son los cambios en las condiciones de vida, concepciones y prácticas que promueven, mantienen y recuperan la salud a la vez que favorecen el desarrollo integral de las personas, familias y comunidades, atribuidos a las intervenciones y atenciones en el continuo de la atención integral en salud 
@@ -115,8 +115,9 @@
           tr.tr-center
             <td colspan="6"> Personas sin mortalidad evitable</td> 
             
-    p Los resultados intermedios, son los cambios esperados en las personas en cada momento del curso de vida, en las familias y comunidades atribuibles a la garantía de una o varias atenciones contempladas en las RIAS y que pueden ser logrados en un corto o mediano plazo. 
-    ul.lista-ul--color.my-5
+    p Los resultados intermedios, son los cambios esperados en las personas en cada momento del curso de vida, en las familias y comunidades atribuibles a la garantía de una o varias atenciones contempladas en las RIAS y que pueden ser logrados en un corto o mediano plazo.
+    .h4.titulo-rosa.my-5 Resultados intermedios de la RPMS
+    ul.lista-ul--color.mb-5
           li.lista-separada 
             i.fas.fa-check.mx-2
             p Personas con adecuado estado de salud visual / auditiva y comunicativa / salud bucal.
@@ -129,6 +130,9 @@
           li.lista-separada 
             i.fas.fa-check.mx-2
             p Personas con prácticas que favorecen el establecimiento de relaciones sanas y constructivas.
+          li.lista-separada 
+            i.fas.fa-check.mx-2
+            p Personas con capacidades para afrontar los diferentes sucesos vitales.
           li.lista-separada 
             i.fas.fa-check.mx-2
             p Personas con habilidades sociales y emocionales para la promoción de la salud mental y convivencia.
@@ -182,13 +186,109 @@
     p.mb-5 Intervenciones dirigidas a grupos o colectivos  de personas que apuestan por promover el desarrollo de capacidades en los sujetos, favorecer el empoderamiento de los individuos, generar entornos saludables, protectores, que favorezcan el desarrollo humano y contribuyan al  bienestar individual y colectivo, así como a  la gestión integral del riesgo en salud. Tiene como unidad de gestión los entornos: Institucional (incluye los servicios de salud como las poblaciones institucionalizadas), hogar, educativo, comunitario, laboral. 
     figure
       img(src="@/assets/curso/img26.svg" style="width:70px").m-auto  
-    .h4.titulo-rosa.text-center.mt-3 Intervenciones colectivas en entornos - RPMS
-    p.text-center.px-5.mx-5 Son en total 11 tecnologías que se pueden incorporar en el Plan de Salud Pública de Intervenciones Colectivas 
+    .h4.titulo-rosa.text-center.mt-3 Intervenciones Colectivas
+    p.text-center.px-5.mx-5.mb-5 Son en total 11 tecnologías que se pueden incorporar en el Plan de Salud Pública de Intervenciones Colectivas 
       b (PSPIC) 
       b-none de cada territorio (municipio, distrito y departamento).
+    .row
+      .col-lg-6
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 1
+          figure
+            img(src="@/assets/curso/img31.svg" style="width:65px").mb-3
+          .h6
+            b Caracterización social y ambiental en entornos: 
+          p Corresponde a la identificación y descripción de las personas y comunidades del entorno, que permite reconocer aspectos básicos sociales o demográficos, condiciones sociales, sanitarias y ambientales; situaciones que evidencien el ejercicio de los derechos; situación de salud; prácticas de cuidado y recursos disponibles de las personas, familias y comunidades del entorno, así como otros elementos que orienten la definición de las intervenciones y su articulación con los procesos de gestión y las intervenciones individuales.
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 2
+          figure
+            img(src="@/assets/curso/img32.svg" style="width:65px").mb-3
+          .h6
+            b Información en salud:
+          p Son acciones de producción, organización y difusión de mensajes o datos que aportan elementos para la toma de decisiones en salud, parten de la identificación previa de conocimientos, actitudes y prácticas así como la evaluación de su apropiación.
+
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 3
+          figure
+            img(src="@/assets/curso/img33.svg" style="width:65px").mb-3
+          .h6
+            b Educación y comunicación para la salud: 
+          p Es un proceso dialógico de construcción de conocimiento que parte del diálogo de saberes y está orientado al desarrollo de capacidades para el cuidado de la salud, en reconocimiento de la autonomía individual y colectiva y la garantía del derecho a la salud.
+
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 4
+          figure
+            img(src="@/assets/curso/img34.svg" style="width:65px").mb-3
+          .h6
+            b Conformación de redes sociales y comunitarias:  
+          p Proceso que se realiza con las  personas, familias, comunidades, organizaciones y redes (públicas o privadas) para compartir experiencias, conocimientos y recursos; sumar esfuerzos y crear sinergias; establecer lazos de cooperación; resignificar espacios públicos, desarrollar acciones comunitarias que promuevan las  prácticas sociales y de salud  así como los  procesos de gestión colectiva de la salud.
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 5
+          figure
+            img(src="@/assets/curso/img35.svg" style="width:65px").mb-3
+          .h6
+            b Zonas de orientación y centros de escucha:  
+          p Es una estrategia comunitaria que propicia un espacio relacional con las comunidades para establecer servicios y acciones de acogida, escucha activa, acompañamiento, asistencia, formación, capacitación y referenciación a otros servicios para favorecer la inclusión social, la garantía del derecho a la salud y el empoderamiento en salud.
+
+      .col-lg-6
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 6
+          figure
+            img(src="@/assets/curso/img36.svg" style="width:65px").mb-3
+          .h6
+            b Rehabilitación Basada en Comunidad: 
+          p Estrategia intersectorial de inclusión social y desarrollo comunitario que permite la generación de oportunidades para la población que presenta una condición de discapacidad y/o afectaciones psicosociales.
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 7
+          figure
+            img(src="@/assets/curso/img37.svg" style="width:65px").mb-3
+          .h6
+            b Jornadas de Salud:
+          p Actividad que se concentra en un espacio de tiempo definido y que implica el despliegue de un equipo interdisciplinario para garantizar el acceso de la población a las intervenciones de las RIAS, prioritariamente en los ámbitos territoriales de alta ruralidad y con población dispersa; para lo cual se financia los aspectos logísticos y de organización requeridos para su ejecución, en articulación con las IPS y EPS del territorio que proveen el talento humano así como los insumos necesarios y suficientes.
+
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 8
+          figure
+            img(src="@/assets/curso/img38.svg" style="width:65px").mb-3
+          .h6
+            b Tamizajes:  
+          p Son métodos o instrumentos de alta sensibilidad para identificar eventos que generan alta externalidad, dirigido a poblaciones vulnerables o con difícil acceso (se incluyen pruebas AUDIT, ASSIST, SRQ, RQC, ELISA, entre otras).
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 9
+          figure
+            img(src="@/assets/curso/img39.svg" style="width:65px").mb-3
+          .h6
+            b Vacunación antirrábica:  
+          p Proceso  de administración de inmunobiológicos  a perros y gatos de un territorio, realizada por la entidad territorial.
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 10
+          figure
+            img(src="@/assets/curso/img40.svg" style="width:65px").mb-3
+          .h6
+            b Prevención y control de vectores:  
+          p Procedimientos que permiten intervenir  de manera regular y contingencial frente a factores de riesgo para minimizar la propagación de vectores y reducir el contacto entre patógenos y el ser humano (toldillos impregnados y otros insumos).
+        .tarjeta-numerada.p-5.my-3
+          .tarjeta-numerada__numero
+            .h4 11
+          figure
+            img(src="@/assets/curso/img41.svg" style="width:65px").mb-3
+          .h6
+            b Suministro de medicamentos e insumos relacionados con eventos de interés en salud pública:  
+          p Enfermedades infecciosas desatendidas (desparasitación masiva, tracoma); estrategia de reducción de daños y riesgos en personas que se inyectan drogas, otros eventos de interés en salud pública definidos por el Ministerio de Salud y Protección Social.
 
 
-    figure.p-3.my-5
+    .h4.titulo-rosa.mt-3 Intervenciones colectivas en entornos - RPMS
+    figure.p-3.mb-5
           img(src='@/assets/curso/img27.svg', alt='Texto que describa la imagen')
     .h4.titulo-rosa Individuales
     p Las atenciones individuales están dirigidas a las personas en sus diferentes momentos de curso de vida y a la familia como sujeto de atención, estas intervenciones tienen como finalidad realizar detección temprana de alteraciones de salud, protección específica, diagnóstico, tratamiento, rehabilitación, paliación y educación para la salud 

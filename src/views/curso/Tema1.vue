@@ -18,6 +18,7 @@
       b “garantizar el derecho a la salud, regular y establecer sus mecanismos de protección”. 
       b-none Implica nuevos acuerdos entre el Estado y la sociedad, considerando como centro del sistema de salud a los sujetos (individuales y colectivos) bajo un planteamiento esencial: la salud es un derecho social fundamental; lo cual implica que atiende a la dignidad humana, requiere de la acción positiva del Estado, tiene carácter progresivo nunca regresivo, entre otros.
     PasosA.mb-5(tipo="n" :datos="datosPasosA")
+    figcaption.mb-5 Figura 1. Aspectos clave a recordar (extraído de Ley Estatutaria en Salud)
     #t_1_2
     .titulo-segundo
       .h4  1.2. Política de Atención Integral en Salud
@@ -41,21 +42,13 @@
     .h5 Considera como marco de referencia, los determinantes sociales de 
       br
       |la salud y define cuatro  estrategias centrales 
-    figure.my-5
+    figure.mt-5
       img.img-col(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
-    .h4.titulo-rosa Atención primaria en salud: 
-    p.mb-5  Esta estrategia reconocida desde de la Declaración de  Alma Atta de acuerdo a la Conferencia Internacional sobre Atención Primaria de Salud del año 1978, donde  se plantea la gestión intersectorial articulada a una atención en salud que se acerque a los sujetos y a sus entornos; partiendo de una integración de las atenciones individuales y colectivos, así como de los diferentes niveles de complejidad de los servicios de salud y en reconocimiento de la voz de las comunidades. Parte de reconocer métodos, tecnologías y prácticas validadas en la evidencia disponible y socialmente aceptadas, que mejoren la gestión en los servicios de salud aumentando su capacidad resolutiva, favoreciendo la territorialización y adscripción poblacional,  así como el desarrollo de escenarios de atención multidisciplinarios e integrales en salud.
-    .h4.titulo-rosa Gestión integral del riesgo en salud:
-    p Gestión integral del riesgo en salud: Es una estrategia transversal que convoca a todos los actores y otros sectores a concurrir en la accion anticipada, que permite modular o evitar la aparición de enfermedades o alteraciones; la identificación temprana cuando se presentan y su abordaje integral para disminuir los impactos en la salud y el desarrollo a través de acciones que van desde la prevención hasta la paliación. Implica el seguimiento y monitoreo de los riesgos para la salud, así como de los resultados en los sujetos hacia donde está orientada la acción. 
-      br
-      br
-      |Además, propicia mejorar la experiencia de los sujetos en su interacción con los servicios de salud y fortalecer la sostenibilidad del sistema. Tiene un componente colectivo que se desarrolla desde las intervenciones colectivas y está a cargo de la entidad territorial y un componente individual que está en cabeza de la Entidades Promotoras de  Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
-      br
-      br
-      |Componente individual que está en cabeza de la Entidades Promotoras de  Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
-      br
-      br
-      p.fst-italic El evento de salud pública más importante en su momento, planteando la necesidad de desplegar acciones por parte de todos los países, bajo el lema «Salud para todos en el año 2000». Disponible en:
+      .h4.text-center Determinantes Sociales
+      figcaption.mb-5 Figura 2. Marco conceptual de la Política de Atención Integral en Salud.
+    .h4.titulo-rosa Enfoque de cuidado de la salud: 
+    p.mb-5  Esta estrategia reconocida desde de la Declaración de  Alma Atta<sup>1</sup> de acuerdo a la Conferencia Internacional sobre Atención Primaria de Salud del año 1978, donde  se plantea la gestión intersectorial articulada a una atención en salud que se acerque a los sujetos y a sus entornos; partiendo de una integración de las atenciones individuales y colectivos, así como de los diferentes niveles de complejidad de los servicios de salud y en reconocimiento de la voz de las comunidades. Parte de reconocer métodos, tecnologías y prácticas validadas en la evidencia disponible y socialmente aceptadas, que mejoren la gestión en los servicios de salud aumentando su capacidad resolutiva, favoreciendo la territorialización y adscripción poblacional,  así como el desarrollo de escenarios de atención multidisciplinarios e integrales en salud.
+    p.fst-italic <sup>1</sup>El evento de salud pública más importante en su momento, planteando la necesidad de desplegar acciones por parte de todos los países, bajo el lema «Salud para todos en el año 2000». Disponible en:
       a.anexo.my-4(:href="obtenerLink('/downloads/Alma-Ata-1978Declaracion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
@@ -63,6 +56,11 @@
             p Conferencia Internacional sobre Atención Primaria de Salud,
               br 
               |Alma-Ata, URSS, 6-12 de septiembre de 1978  
+    .h4.titulo-rosa Gestión integral del riesgo en salud:
+    p Es una estrategia transversal que convoca a todos los actores y otros sectores a concurrir en la accion anticipada, que permite modular o evitar la aparición de enfermedades o alteraciones; la identificación temprana cuando se presentan y su abordaje integral para disminuir los impactos en la salud y el desarrollo a través de acciones que van desde la prevención hasta la paliación. Implica el seguimiento y monitoreo de los riesgos para la salud, así como de los resultados en los sujetos hacia donde está orientada la acción. 
+      br
+      br
+      |Además, propicia mejorar la experiencia de los sujetos en su interacción con los servicios de salud y fortalecer la sostenibilidad del sistema. Tiene un componente colectivo que se desarrolla desde las intervenciones colectivas y está a cargo de la entidad territorial y un componente individual que está en cabeza de la Entidades Promotoras de  Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
       .h4.text-center.mt-5 Proceso para la Gestión Integral del Riesgo en Salud
       figure.my-5
         img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
@@ -86,8 +84,9 @@
         .col-lg-5
           p.pe-5.my-5 También involucra el deber de la sociedad y de los sistemas para realizar acciones que permitan ganancias en salud. Se relaciona con el curso de vida y parte de reconocer diferentes esferas del cuidado: el cuidar de sí, de los otros y del entorno, lo que implica generar oportunidades de desarrollo y condiciones para la protección y el bienestar, promoviendo la convivencia, la atención hacia lo público, la solidaridad, la cultura de la seguridad social y el fortalecimiento de redes de apoyo familiar y social. 
         .col-lg-7
-          figure
-            img.img-col(src='@/assets/curso/img7.svg', alt='Texto que describa la imagen')
+          figure.mb-5
+            img.img-col(src='@/assets/curso/img7.svg', alt='Texto que describa la imagen').mb-3202
+            figcaption Figura 7. Esferas del cuidado
     .h4.titulo-rosa Enfoques vinculados a la Política de Atención Integral en Salud
     TabsA.mb-5
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Enfoque de Derechos")
@@ -186,54 +185,54 @@ export default {
     ],
     datosPasosA: [
       {
-        titulo: 'La salud como derecho:',
+        titulo: 'La salud como derecho',
         texto:
-          'la salud no es un servicio, es un derecho social fundamental en el que existe compromiso de actuación por parte del Estado.',
+          'La salud no es un servicio, es un derecho social fundamental en el que existe compromiso de actuación por parte del Estado.',
       },
       {
-        titulo: 'Sujetos individuales y colectivos:',
+        titulo: 'Sujetos individuales y colectivos',
         texto:
-          'la dimensión de la salud reconoce los sujetos individuales (personas), así como los colectivos (familias y comunidades) y en este sentido, se articula e integra el abordaje individual (más allá de la prestación de los servicios) y colectivo (reconociendo que la salud pública aborda los colectivos, pero también a los sujetos).',
+          'La dimensión de la salud reconoce los sujetos individuales (personas), así como los colectivos (familias y comunidades) y en este sentido, se articula e integra el abordaje individual (más allá de la prestación de los servicios) y colectivo (reconociendo que la salud pública aborda los colectivos, pero también a los sujetos).',
       },
       {
-        titulo: 'Prevalencia del interés general:',
+        titulo: 'Prevalencia del interés general',
         texto:
-          'vincula tanto la atención individual como la colectiva y releva las actuaciones individuales en lógica de cuidado de sí mismo, de los otros y del entorno, ubicando en ese marco la prevalencia del interés general. ',
+          'Vincula tanto la atención individual como la colectiva y releva las actuaciones individuales en lógica de cuidado de sí mismo, de los otros y del entorno, ubicando en ese marco la prevalencia del interés general. ',
       },
       {
-        titulo: 'Integralidad en la atención: ',
+        titulo: 'Integralidad en la atención',
         texto:
-          'integra las diferentes finalidades de la atención en salud como un todo y en un continuo desde la promoción de la salud, prevención y atención de la enfermedad, rehabilitación de sus secuelas y paliación, bajo un enfoque integral tanto para la gestión como para la atención.',
+          'Integra las diferentes finalidades de la atención en salud como un todo y en un continuo desde la promoción de la salud, prevención y atención de la enfermedad, rehabilitación de sus secuelas y paliación, bajo un enfoque integral tanto para la gestión como para la atención.',
       },
       {
-        titulo: 'Acción sectorial e intersectorial:',
+        titulo: 'Acción sectorial e intersectorial',
         texto:
-          'releva la acción del Estado como líder de la formulación, implementación y seguimiento a las políticas públicas desde esta perspectiva y en este marco articula la acción sectorial e intersectorial apostando a la afectación de los determinantes sociales de la salud.',
+          'Releva la acción del Estado como líder de la formulación, implementación y seguimiento a las políticas públicas desde esta perspectiva y en este marco articula la acción sectorial e intersectorial apostando a la afectación de los determinantes sociales de la salud.',
       },
       {
-        titulo: 'Apuesta por resultados en Salud:',
+        titulo: 'Apuesta por resultados en Salud',
         texto:
-          'ubica también el marco de evaluación técnica y social del sistema, que privilegie las intervenciones que generen ganancias en salud en la población.',
+          'Ubica también el marco de evaluación técnica y social del sistema, que privilegie las intervenciones que generen ganancias en salud en la población.',
       },
       {
-        titulo: 'Principios:',
+        titulo: 'Principios',
         texto:
-          ' reconoce unos principios del Derecho a la Salud, determinantes para orientar el accionar del sector: la Universalidad (todos los residentes del territorio colombiano); el principio Pro-Homine (adoptando la interpretación de la normatividad vigente que sea más favorable); la equidad y progresividad del derecho (atendiendo a disminuir brechas y ampliando de manera gradual y continua el acceso a servicios y tecnologías); la continuidad y oportunidad de la atención en salud así como la necesidad de avanzar en un abordaje intercultural que reconoce las diferencias; la libre elección en el marco de la oferta disponible de entidades según su competencia; la sostenibilidad a través de mecanismos que favorezcan la eficiencia y solidaridad para un mejor uso de los recursos disponibles. ',
+          'Reconoce unos principios del Derecho a la Salud, determinantes para orientar el accionar del sector: la <b>Universalidad</b> (todos los residentes del territorio colombiano); el principio <b>Pro-Homine </b>(adoptando la interpretación de la normatividad vigente que sea más favorable); la equidad y <b>progresividad</b> del derecho (atendiendo a disminuir brechas y ampliando de manera gradual y continua el acceso a servicios y tecnologías); la <b>continuidad y oportunidad</b> de la atención en salud así como la necesidad de avanzar en un <b>abordaje intercultural</b> que reconoce las diferencias; la <b>libre elección</b> en el marco de la oferta disponible de entidades según su competencia; la <b>sostenibilidad</b> a través de mecanismos que favorezcan la eficiencia y solidaridad para un mejor uso de los recursos disponibles. ',
       },
       {
-        titulo: 'Prevalencia de derechos :',
+        titulo: 'Prevalencia de derechos',
         texto:
-          'define y finalmente señala la prevalencia de derechos especialmente centrada en niños, niñas y adolescentes; así como la protección especial de comunidades con pertenencia étnica.',
+          'Define y finalmente señala la prevalencia de derechos especialmente centrada en niños, niñas y adolescentes; así como la protección especial de comunidades con pertenencia étnica.',
       },
       {
-        titulo: 'Sistema de Salud:',
+        titulo: 'Sistema de Salud',
         texto:
-          'hace una apuesta por articular los planteamientos y desarrollos del Sistema General de Seguridad Social (establecido en el marco de la Ley 100 de 1993) y lo establecido en relación a la Salud Pública (desde la Ley 9 de 1979), bajo la acepción de sistema de salud, que dedicó los esfuerzos de todos los actores a la materialización del derecho fundamental de la salud.',
+          'Hace una apuesta por articular los planteamientos y desarrollos del Sistema General de Seguridad Social (establecido en el marco de la Ley 100 de 1993) y lo establecido en relación a la Salud Pública (desde la Ley 9 de 1979), bajo la acepción de sistema de salud, que dedicó los esfuerzos de todos los actores a la materialización del derecho fundamental de la salud.',
       },
       {
-        titulo: 'Política de Atención Integral en Salud:',
+        titulo: 'Política de Atención Integral en Salud',
         texto:
-          'marco de política pública que permita materializar lo establecido en la Ley Estatutaria en Salud. ',
+          'Marco de política pública que permita materializar lo establecido en la Ley Estatutaria en Salud. ',
       },
     ],
     datosSlyder: [

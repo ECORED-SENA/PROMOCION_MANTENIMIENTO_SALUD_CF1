@@ -23,7 +23,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema1',
       icono: 'far fa-file-alt',
       numero: '1',
-      titulo: 'PAI',
+      titulo: 'Atención Integral en Salud',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -44,7 +44,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema2',
       icono: 'far fa-file-alt',
       numero: '2',
-      titulo: 'Generalidades y principios',
+      titulo: 'Rutas Integrales de Atención Integral en Salud',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -89,7 +89,7 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '3.2',
-          titulo: 'Acciones de Gestión',
+          titulo: 'Intervenciones de la RPMS',
           hash: 't_3_2',
         },
       ],
@@ -137,46 +137,45 @@ export const creditos = {
   },
   contenidoInstruccional: [
     {
-      nombre: 'Gloria Matilde Lee Mejía',
-      cargo: 'Responsable del equipo',
-      centro: 'Centro de Comercio y Servicios',
-      regional: 'Regional Tolima',
-    },
-    {
       nombre: 'Rafael Neftalí Lizcano Reyes',
       cargo: 'Asesor pedagógico',
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
     },
     {
+      nombre: 'Mónica Genith Castro',
+      cargo: 'Experta temática',
+      centro: 'Red Nacional Bancos de Sangre y Servicio de Transfusión.',
+    },
+    {
       nombre: [
-        'Mónica Genith Castro',
         'Lía Marcela Gúiza',
         'Natalia Munarth',
         'Magaly Jaimes',
         'Mily Ramírez',
         'Aura Lucia Toloza',
       ],
-      cargo: 'Profesional Especializado ',
+      cargo: 'Expertas temáticas',
       centro:
         'Ministerio de Salud - Dirección de promoción y prevención - grupo curso de vida',
     },
     {
       nombre: 'Leidy Carolina Arias Aguirre',
       cargo: 'Diseñador instruccional',
-      centro: 'SENA - Centro de Diseño y metrología',
-    },
-    {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Evaluador instruccional',
       centro: 'Centro de Diseño y Metrología',
       regional: 'Regional Distrito Capital',
     },
     {
       nombre: 'Sandra Patricica Hoyos Sepúlveda',
-      cargo: 'Revisora de estilo',
+      cargo: 'Evaluador Instruccional ',
       centro: 'Centro para la Industria de la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
+    },
+    {
+      nombre: 'María Isabel Román Rueda',
+      cargo: 'Revisora de estilo',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
     },
   ],
   desarrolloProducto: [
@@ -186,10 +185,17 @@ export const creditos = {
     },
     {
       nombre: 'Leyson Fabian Castaño Perez',
-      cargo: 'Integración de recursos y pruebas',
+      cargo: 'Soporte organizacional',
     },
     {
-      nombre: ['Carlos Julian Ramirez', 'Wilson Andres Arenales Caceres'],
+      nombre: [
+        'Carlos Julian Ramirez',
+        'Camilo Andrés Villamizar Lizcano',
+        'José Jaime Luis Tang Pinzón',
+        'María Natalia Maldonado Delgado',
+        'Wilson Andres Arenales Cáceres',
+        'Zuleidy Maria Ruiz Torres',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
@@ -203,8 +209,8 @@ export const creditos = {
   ],
   gestoresRepositorio: [
     {
-      nombre: 'Brayan Stiven Pinto Diaz',
-      cargo: ['Desarrollo front-end', 'Validación de recursos'],
+      nombre: 'Milady Tatiana Villamil Castellanos',
+      cargo: ['Validación de recursos'],
       centro: 'Centro de comercio y servicios',
       regional: 'Regional Tolima',
     },
@@ -238,7 +244,11 @@ export const referencias = [
   },
   {
     referencia:
-      'Cunego, Aram; González Ibáñez, Joaquín (2016). La Evaluación de Políticas Públicas y Programas de Desarrollo a través del Enfoque de Derechos Humanos. Biblioteca derechos humanos Berg Institute. Ministerio de Salud y Protección Social (2018). Gestión integral del riesgo en salud. Perspectiva desde el Aseguramiento en el contexto de la Política de Atención Integral en Salud. Documento de trabajo [Archivo PDF].  Disponible en: ',
+      'Cunego, Aram; González Ibáñez, Joaquín (2016). La Evaluación de Políticas Públicas y Programas de Desarrollo a través del Enfoque de Derechos Humanos. Biblioteca derechos humanos Berg Institute.',
+  },
+  {
+    referencia:
+      ' Ministerio de Salud y Protección Social (2018). Gestión integral del riesgo en salud. Perspectiva desde el Aseguramiento en el contexto de la Política de Atención Integral en Salud. Documento de trabajo [Archivo PDF].  Disponible en: ',
     link:
       'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/DOA/girs-prespectiva-desde-aseguramiento.pdf.',
   },
@@ -254,12 +264,6 @@ export const referencias = [
     link:
       'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
   },
-  {
-    referencia:
-      'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-    link:
-      'https://www.minsalud.gov.co/Normatividad_Nuevo/Resolución%20No.%202626%20de%202019.pdf.',
-  },
 ]
 //!AÑADIR ESPACIOS A LAS DEFINICIONES
 
@@ -272,7 +276,12 @@ export const glosario = [
   {
     termino: 'Determinantes sociales de salud',
     significado:
-      'se entiende como aquellas situaciones, condiciones o circunstancias sociales que hacen parte del bienestar, la calidad de vida y el desarrollo humano, que ejercen influencia sobre la salud de las personas y que, actuando e interactuando en diferentes niveles de organización, determinan el estado de salud de la población. Se han elaborado modelos que muestran los mecanismos por medio de los cuales los Determinantes Sociales de la Salud influyen en los resultados sanitarios, con el fin de hacer explícitos los nexos entre los distintos determinantes y ubicar los puntos de acceso estratégicos para adoptar las medidas de política. (Resolución 1841 de 2013.Plan Decenal de Salud Pública). Enfoque diferencial: reconoce la existencia de grupos poblacionales que por sus condiciones y características étnicas, transcurrir vital, género, orientaciones sexuales e identidades de género, discapacidad o por ser víctimas del conflicto armado, son más vulnerables y requieren un abordaje ajustado a sus necesidades y particularidades, para disminuir situaciones de inequidad que dificultan el goce efectivo de sus derechos fundamentales, buscando lograr la equidad en el derecho a la diferencia.',
+      'se entiende como aquellas situaciones, condiciones o circunstancias sociales que hacen parte del bienestar, la calidad de vida y el desarrollo humano, que ejercen influencia sobre la salud de las personas y que, actuando e interactuando en diferentes niveles de organización, determinan el estado de salud de la población. Se han elaborado modelos que muestran los mecanismos por medio de los cuales los Determinantes Sociales de la Salud influyen en los resultados sanitarios, con el fin de hacer explícitos los nexos entre los distintos determinantes y ubicar los puntos de acceso estratégicos para adoptar las medidas de política. (Resolución 1841 de 2013.Plan Decenal de Salud Pública).',
+  },
+  {
+    termino: 'Enfoque diferencial',
+    significado:
+      'reconoce la existencia de grupos poblacionales que por sus condiciones y características étnicas, transcurrir vital, género, orientaciones sexuales e identidades de género, discapacidad o por ser víctimas del conflicto armado, son más vulnerables y requieren un abordaje ajustado a sus necesidades y particularidades, para disminuir situaciones de inequidad que dificultan el goce efectivo de sus derechos fundamentales, buscando lograr la equidad en el derecho a la diferencia.',
   },
   {
     termino: 'Entidades Promotoras de Salud',
@@ -290,14 +299,19 @@ export const glosario = [
       ' la gestión territorial hace referencia al conjunto de procesos y acciones que realiza el ente territorial en salud con otros actores a nivel sectorial e intersectorial para lograr la implementación de una atención integral en salud.',
   },
   {
-    termino: 'Integrantes del Sistema General de Seguridad Social:',
+    termino: 'Integrantes del Sistema General de Seguridad Social',
     significado:
-      '1. Organismos de dirección, vigilancia y control: los Ministerios de Salud y protección social, la superintendencia nacional en salud. 2. Los organismos de administración y financiación: las entidades promotoras de salud; Las direcciones seccionales, distritales y locales de salud. 3.  Las instituciones prestadoras de servicios de salud, públicas, mixtas o privadas. 4.  Las demás entidades de salud adscritas a los Ministerios de Salud y protección social. 5.  Los empleadores, los trabajadores y sus organizaciones y los trabajadores independientes que cotizan al sistema contributivo y los pensionados. 6.  Los beneficiarios del sistema general de seguridad social en salud.',
+      '<ol> <li>1. Organismos de dirección, vigilancia y control: los Ministerios de Salud y protección social, la superintendencia nacional en salud.</li> <li>2. Los organismos de administración y financiación: las entidades promotoras de salud; Las direcciones seccionales, distritales y locales de salud.</li> <li>3.  Las instituciones prestadoras de servicios de salud, públicas, mixtas o privadas.</li> <li>4.  Las demás entidades de salud adscritas a los Ministerios de Salud y protección social.</li> <li>5.  Los empleadores, los trabajadores y sus organizaciones y los trabajadores independientes que cotizan al sistema contributivo y los pensionados.</li><li> 6.  Los beneficiarios del sistema general de seguridad social en salud.</li> </ol>',
   },
   {
     termino: 'Interculturalidad',
     significado:
-      'es el respeto por las diferencias culturales existentes en el país y en el ámbito global, así como el esfuerzo deliberado por construir mecanismos que integren tales diferencias en la salud, en las condiciones de vida y en los servicios de atención integral de las enfermedades, a partir del reconocimiento de los saberes, prácticas y medios tradicionales, alternativos y complementarios para la recuperación de la salud en el ámbito global. Intersectorialidad: es la acción conjunta y coordinada de los diferentes sectores y organizaciones que de manera directa o indirecta, en forma integrada y continua, afectan los determinantes y el estado de salud de la población.',
+      'es el respeto por las diferencias culturales existentes en el país y en el ámbito global, así como el esfuerzo deliberado por construir mecanismos que integren tales diferencias en la salud, en las condiciones de vida y en los servicios de atención integral de las enfermedades, a partir del reconocimiento de los saberes, prácticas y medios tradicionales, alternativos y complementarios para la recuperación de la salud en el ámbito global.',
+  },
+  {
+    termino: 'Intersectorialidad',
+    significado:
+      'es la acción conjunta y coordinada de los diferentes sectores y organizaciones que de manera directa o indirecta, en forma integrada y continua, afectan los determinantes y el estado de salud de la población.',
   },
   {
     termino: 'Redes Integrales de Prestación de Servicios de Salud',
