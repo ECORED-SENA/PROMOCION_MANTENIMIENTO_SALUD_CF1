@@ -35,6 +35,7 @@
       .col-lg-5
         figure.p-3
           img.img-col--2(src='@/assets/curso/img23.svg', alt='Texto que describa la imagen')
+    br
     .h4.titulo-rosa.my-5 Objetivos de la ruta de promoción y mantenimiento de la salud
     ol.lista-ol--cuadro
           li 
@@ -60,7 +61,7 @@
             .lista-ol--cuadro__vineta.p-3
               span e
             p.ms-2 Realizar el seguimiento de la salud y el desarrollo integral de las personas en cada uno de los momentos del curso de vida.
-    .h4.titulo-rosa.my-5 La RPMS plantea cambios importantes en relación a lo planteado anteriormente en la Resolución 412 de 2000 (derogada por Resolución 3280 de 2018) como es:
+    .h4.titulo-rosa.my-5 La RPMS plantea cambios importantes en relación a lo planteado anteriormente en la Resolución 412 de 2000 (derogada por Resolución 3280 de 2018) como es
     ul.lista-ul--color
           li.lista-separada 
             i.fas.fa-check.mx-2
@@ -74,6 +75,7 @@
           li.lista-separada 
             i.fas.fa-check.mx-2
             p Posibilitar la prestación en los diferentes entornos de las intervenciones individuales con cumplimiento de calidad.
+    #t_3_1
     .titulo-segundo
       .h4.mt-5  3.1. Resultados en Salud
     p Una de las apuestas esenciales planteadas en las RIAS y que se concretan en la RPMS y RIAMP son los resultados en salud como apuesta central en la que deben combinarse los esfuerzos de todos los actores. Son los cambios en las condiciones de vida, concepciones y prácticas que promueven, mantienen y recuperan la salud a la vez que favorecen el desarrollo integral de las personas, familias y comunidades, atribuidos a las intervenciones y atenciones en el continuo de la atención integral en salud 
@@ -158,13 +160,14 @@
             i.fas.fa-check.mx-2
             p Personas, familias y comunidades empoderadas para la exigibilidad y ejercicio del derecho a la vida y la salud.
     p Se espera así mismo, a través de la implementación de las RIAS, que se garanticen atributos y condiciones de calidad (integralidad, accesibilidad, oportunidad, disponibilidad, continuidad) con las consideraciones de abordaje poblacional y territorial; apuntando también a reducir brechas de equidad en salud asociadas a condiciones socioeconómicas, dispersión poblacional, pertenencia étnica, entre otros diferenciales. Estos resultados en salud se materializan en la conjunción de la acción intersectorial y la gestión de intervenciones (individuales, colectivas y poblacionales) que finalmente son dispuestas a los sujetos de atención.
+    #t_3_2
     .titulo-segundo
       .h4.mt-5  3.2. Intervenciones de la RPMS
     .h4.titulo-rosa Poblacionales
     p Son las intervenciones dirigidas a toda la población que aportan en los procesos sociales, ambientales, económicos que se relacionan con la calidad de vida, el bienestar, el desarrollo y la salud de las poblaciones. 
     figure.p-3.my-5
           img(src='@/assets/curso/img24.svg', alt='Texto que describa la imagen')
-    .h4.titulo-rosa Las líneas de acción que orientan las intervenciones poblacionales son:
+    .h4.titulo-rosa Las líneas de acción que orientan las intervenciones poblacionales son
     ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta.p-3
@@ -185,14 +188,14 @@
           img(src='@/assets/curso/img25.svg', alt='Texto que describa la imagen')
     p.mb-5 Intervenciones dirigidas a grupos o colectivos  de personas que apuestan por promover el desarrollo de capacidades en los sujetos, favorecer el empoderamiento de los individuos, generar entornos saludables, protectores, que favorezcan el desarrollo humano y contribuyan al  bienestar individual y colectivo, así como a  la gestión integral del riesgo en salud. Tiene como unidad de gestión los entornos: Institucional (incluye los servicios de salud como las poblaciones institucionalizadas), hogar, educativo, comunitario, laboral. 
     figure
-      img(src="@/assets/curso/img26.svg" style="width:70px").m-auto  
+      img(src="@/assets/curso/img26.svg" style="width:70px").m-auto 
     .h4.titulo-rosa.text-center.mt-3 Intervenciones Colectivas
     p.text-center.px-5.mx-5.mb-5 Son en total 11 tecnologías que se pueden incorporar en el Plan de Salud Pública de Intervenciones Colectivas 
       b (PSPIC) 
       b-none de cada territorio (municipio, distrito y departamento).
     .row
       .col-lg-6
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 1
           figure
@@ -200,7 +203,7 @@
           .h6
             b Caracterización social y ambiental en entornos: 
           p Corresponde a la identificación y descripción de las personas y comunidades del entorno, que permite reconocer aspectos básicos sociales o demográficos, condiciones sociales, sanitarias y ambientales; situaciones que evidencien el ejercicio de los derechos; situación de salud; prácticas de cuidado y recursos disponibles de las personas, familias y comunidades del entorno, así como otros elementos que orienten la definición de las intervenciones y su articulación con los procesos de gestión y las intervenciones individuales.
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 2
           figure
@@ -209,7 +212,7 @@
             b Información en salud:
           p Son acciones de producción, organización y difusión de mensajes o datos que aportan elementos para la toma de decisiones en salud, parten de la identificación previa de conocimientos, actitudes y prácticas así como la evaluación de su apropiación.
 
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 3
           figure
@@ -218,7 +221,7 @@
             b Educación y comunicación para la salud: 
           p Es un proceso dialógico de construcción de conocimiento que parte del diálogo de saberes y está orientado al desarrollo de capacidades para el cuidado de la salud, en reconocimiento de la autonomía individual y colectiva y la garantía del derecho a la salud.
 
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 4
           figure
@@ -226,7 +229,7 @@
           .h6
             b Conformación de redes sociales y comunitarias:  
           p Proceso que se realiza con las  personas, familias, comunidades, organizaciones y redes (públicas o privadas) para compartir experiencias, conocimientos y recursos; sumar esfuerzos y crear sinergias; establecer lazos de cooperación; resignificar espacios públicos, desarrollar acciones comunitarias que promuevan las  prácticas sociales y de salud  así como los  procesos de gestión colectiva de la salud.
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 5
           figure
@@ -236,7 +239,7 @@
           p Es una estrategia comunitaria que propicia un espacio relacional con las comunidades para establecer servicios y acciones de acogida, escucha activa, acompañamiento, asistencia, formación, capacitación y referenciación a otros servicios para favorecer la inclusión social, la garantía del derecho a la salud y el empoderamiento en salud.
 
       .col-lg-6
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 6
           figure
@@ -244,7 +247,7 @@
           .h6
             b Rehabilitación Basada en Comunidad: 
           p Estrategia intersectorial de inclusión social y desarrollo comunitario que permite la generación de oportunidades para la población que presenta una condición de discapacidad y/o afectaciones psicosociales.
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 7
           figure
@@ -253,7 +256,7 @@
             b Jornadas de Salud:
           p Actividad que se concentra en un espacio de tiempo definido y que implica el despliegue de un equipo interdisciplinario para garantizar el acceso de la población a las intervenciones de las RIAS, prioritariamente en los ámbitos territoriales de alta ruralidad y con población dispersa; para lo cual se financia los aspectos logísticos y de organización requeridos para su ejecución, en articulación con las IPS y EPS del territorio que proveen el talento humano así como los insumos necesarios y suficientes.
 
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 8
           figure
@@ -261,7 +264,7 @@
           .h6
             b Tamizajes:  
           p Son métodos o instrumentos de alta sensibilidad para identificar eventos que generan alta externalidad, dirigido a poblaciones vulnerables o con difícil acceso (se incluyen pruebas AUDIT, ASSIST, SRQ, RQC, ELISA, entre otras).
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 9
           figure
@@ -269,7 +272,7 @@
           .h6
             b Vacunación antirrábica:  
           p Proceso  de administración de inmunobiológicos  a perros y gatos de un territorio, realizada por la entidad territorial.
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 10
           figure
@@ -277,7 +280,7 @@
           .h6
             b Prevención y control de vectores:  
           p Procedimientos que permiten intervenir  de manera regular y contingencial frente a factores de riesgo para minimizar la propagación de vectores y reducir el contacto entre patógenos y el ser humano (toldillos impregnados y otros insumos).
-        .tarjeta-numerada.p-5.my-3
+        .tarjeta-numerada.px-5.py-4.my-3
           .tarjeta-numerada__numero
             .h4 11
           figure
@@ -285,11 +288,9 @@
           .h6
             b Suministro de medicamentos e insumos relacionados con eventos de interés en salud pública:  
           p Enfermedades infecciosas desatendidas (desparasitación masiva, tracoma); estrategia de reducción de daños y riesgos en personas que se inyectan drogas, otros eventos de interés en salud pública definidos por el Ministerio de Salud y Protección Social.
-            br
-            br
-            | Estas intervenciones, procedimientos o actividades están ordenadas por entorno, responden de manera especial a la caracterizacion y deben considerar a los sujetos, familia y comunidades que habitan o desarrollan su trayectoria en ese entorno. 
+    p Estas intervenciones, procedimientos o actividades están ordenadas por entorno, responden de manera especial a la caracterizacion y deben considerar a los sujetos, familia y comunidades que habitan o desarrollan su trayectoria en ese entorno.
 
-
+    br
     .h4.titulo-rosa.mt-3 Intervenciones colectivas en entornos - RPMS
     figure.p-3.mb-5
           img(src='@/assets/curso/img27.svg', alt='Texto que describa la imagen')
@@ -297,9 +298,11 @@
     p Las atenciones individuales están dirigidas a las personas en sus diferentes momentos de curso de vida y a la familia como sujeto de atención, estas intervenciones tienen como finalidad realizar detección temprana de alteraciones de salud, protección específica, diagnóstico, tratamiento, rehabilitación, paliación y educación para la salud 
     figure.p-3.my-5
           img(src='@/assets/curso/img28.svg', alt='Texto que describa la imagen')
+    br
+    #t_3_3
     .titulo-segundo
       .h4.mt-5 3.3. Acciones de Gestión
-    .h4.titulo-rosa Poblacionales
+    .h4.titulo-rosa.mt-5 Poblacionales
     p Los procesos de gestión de la Salud Pública definidos en la resolución 518 de 2015 definen una serie de acciones que permiten la afectación de los determinantes sociales de la salud y el logro de los resultados en salud desde la gestión sectorial, intersectorial y comunitaria, en tanto la apuesta son los resultados en salud - vía la gestión de atenciones - que requiere unos procesos de gestión.
     figure.p-3.my-5
         img(src='@/assets/curso/img29.svg')

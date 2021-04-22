@@ -7,12 +7,14 @@
       .titulo-principal__numero
         .h3 2
       .h3 Rutas Integrales de Atención Integral en Salud
+    #t_2_1
     .titulo-segundo
       .h4  2.1 Generalidades y principios
     p.mb-3 Son una herramienta de obligatorio cumplimiento, establecidas en el marco de la Política PAIS y la Resolución 3202 de 2016, que contribuyen a que las personas, familias y comunidades a que alcancen resultados en salud teniendo en cuenta las particularidades del territorio donde viven, se relacionan y se desarrollan. Permiten orientar y ordenar la gestión de la atención integral en salud a cargo de los actores del Sistema General  de Seguridad Social en Salud -SGSSS- de manera continua y consecuente con la situación y características de cada territorio, así como la gestión intersectorial para la afectación de los determinantes sociales de la salud. Integran además las atenciones individuales, colectivas y poblacionales para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación y plantea las acciones de cuidado que se esperan del individuo para el mantenimiento o recuperación de su salud.
     figure.mb-5
       img(src='@/assets/curso/img8.svg', alt='Texto que describa la imagen' style='width:60%').m-auto
-    .h4.titulo-rosa Postulados orientadores de las Rutas Integrales de Atención en Salud (RIAS)
+    br
+    .h4.titulo-rosa.my-4 Postulados orientadores de las Rutas Integrales de Atención en Salud (RIAS)
     .row
       .col-lg-6
         ul.lista-ul--color
@@ -57,6 +59,8 @@
             p.mx-2.mb-md-5.mb-lg-0 La operación de las RIAS reconoce el 
               b territorio como unidad base 
               b-none donde se integra el sistema de salud y los agentes responsables de garantizar la atención integral en salud.
+    br
+    #t_2_2
     .titulo-segundo.my-5
       .h4  2.2 Ordenadores de las RIAS
     figure.mb-3
@@ -67,6 +71,8 @@
       br
       br
       |Para el caso de las atenciones individuales el ordenador que prevalece y ordena son las personas según su momento de curso de vida (primera infancia, infancia, adolescencia, juventud, adultez, vejez).  Las intervenciones colectivas deben articular el abordaje en los entornos de tal manera que se brinden atenciones integrales e integradas que respondan a las características de los sujetos que se encuentran en los mismos, manteniendo presente el momento de curso de vida de las personas.
+    br
+    #t_2_3
     .titulo-segundo
       .h4  2.3 Tipos de RIAS
     .h4.titulo-rosa La resolución 3202 de 2016 define 3 tipos de RIAS
@@ -214,15 +220,17 @@
             b Cáncer
             br 
             b-none (Cáncer de mama y Cáncer de Cervix) 
+    #t_2_4
     .titulo-segundo
       .h4  2.4 Estructura de la RIAS
     p.my-3 Las RIAS plantean una estructura que reconoce en primera instancia los resultados en salud a los que debemos apuntar todos los agentes del sistema de salud; desde allí reconoce las intervenciones poblacionales, colectivas e individuales que según la evidencia disponible, permite aportar a dichos resultados en salud y plantea un marco amplio de acciones de gestión de la salud pública (Resolución 518 de 2015) que permiten garantizar que se brinden las intervenciones y se gestione desde la coordinación intersectorial las acciones que correspondan para afectar los determinantes sociales de la salud.
     figure
           img.img-col(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen').my-5
           figcaption.mb-5 Figura 7. Adopción de RIAS - Resolución 3202 de 2016.
-    p.text-center.mb-5 A continuación se definen las acciones de gestión e intervenciones en las Rutas 
+    p.text-center.mb-5 
+      b A continuación se definen las acciones de gestión e intervenciones en las Rutas 
       br
-      |integrales de atención en salud que apuntan a resultados en salud. 
+      b|integrales de atención en salud que apuntan a resultados en salud. 
     .h4.titulo-rosa Gestión e intervenciones en las RIAS 
     p
       b Basada en Resolución 3202 de 2016

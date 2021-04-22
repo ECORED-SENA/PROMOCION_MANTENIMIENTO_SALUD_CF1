@@ -92,6 +92,12 @@ export const menuPrincipal = {
           titulo: 'Intervenciones de la RPMS',
           hash: 't_3_2',
         },
+        {
+          icono: 'far fa-file-alt',
+          numero: '3.3',
+          titulo: 'Acciones de Gestión',
+          hash: 't_3_3',
+        },
       ],
     },
   ],
