@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Rutas Integrales de Atención en Salud (RIAS)',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'En este módulo se abordará el marco normativo y conceptual de la atención integral en salud, las RIAS (Rutas Integrales de Atención en Salud) como herramienta de la Política, sus atributos y tipos para centrarse por último en la Ruta Integral para la Promoción y el Mantenimiento de la Salud, relacionando los resultados en salud con las intervenciones que llegan a las personas, familias y comunidades y la gestión que es necesaria para que ello ocurra.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
