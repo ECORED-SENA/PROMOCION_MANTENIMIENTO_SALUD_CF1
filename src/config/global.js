@@ -153,6 +153,12 @@ export default {
         centro: 'Red Nacional Bancos de Sangre y Servicio de Transfusión',
       },
       {
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
+      {
         nombre: [
           'Lía Marcela Gúiza',
           'Natalia Munarth',
@@ -165,22 +171,10 @@ export default {
           'Ministerio de Salud - Dirección de promoción y prevención - grupo curso de vida',
       },
       {
-        nombre: 'Leidy Carolina Arias Aguirre',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
         nombre: 'Sandra Patricica Hoyos Sepúlveda',
         cargo: 'Evaluadora Instruccional ',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -197,22 +191,33 @@ export default {
         regional: 'Regional Santander',
       },
       {
+        nombre: ['Carlos Julian Ramirez'],
+        cargo: 'Diseño web',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
         nombre: [
-          'Carlos Julian Ramirez',
           'Camilo Andrés Villamizar Lizcano',
           'José Jaime Luis Tang Pinzón',
           'María Natalia Maldonado Delgado',
           'Wilson Andres Arenales Cáceres',
           'Zuleidy Maria Ruiz Torres',
         ],
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Producción Audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: ['Camilo Andres Bolaño Rey', 'Daniel Ricardo Mutis Gómez'],
         cargo: 'Desarrollo Front-End',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
-        centro: 'Centro Industrial del Diseño y la Manufactura',
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Revisora de estilo',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura',
         regional: 'Regional Santander',
       },
     ],
