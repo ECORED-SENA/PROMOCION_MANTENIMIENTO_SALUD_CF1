@@ -9,62 +9,12 @@
       h1 Rutas Integrales de Atención Integral en Salud
 
     #t_2_1.titulo-segundo
-      h2  2.1 Generalidades y principios
+      h2  2.1 Generalidades y principios    
 
-    p.mb-0 Son una herramienta de obligatorio cumplimiento, establecidas en el marco de la Política PAIS y la Resolución 3202 de 2016, que contribuyen a que las personas, familias y comunidades a que alcancen resultados en salud teniendo en cuenta las particularidades del territorio donde viven, se relacionan y se desarrollan. Permiten orientar y ordenar la gestión de la atención integral en salud a cargo de los actores del Sistema General  de Seguridad Social en Salud -SGSSS- de manera continua y consecuente con la situación y características de cada territorio, así como la gestión intersectorial para la afectación de los determinantes sociales de la salud. Integran además las atenciones individuales, colectivas y poblacionales para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación y plantea las acciones de cuidado que se esperan del individuo para el mantenimiento o recuperación de su salud.
-
-    figure.my-5
-      img(src='@/assets/curso/img8.svg', alt='Texto que describa la imagen' style='width:650px;').m-auto
-
-    .hr-blank    
-    
-    h4 Postulados orientadores de las Rutas Integrales de Atención en Salud (RIAS)
-    .row
-      .col-lg-6
-        ul.lista-ul--color
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Son una herramienta #[strong centrada en las personas] que ubica en un lugar estratégico el ejercicio del derecho a la salud.
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Están orientadas a incidir en los resultados en salud de impacto e intermedios, así como en la calidad de la atención.
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Definen la gestión y atenciones requeridas para anticiparse a la contingencia con atenciones de promoción de la salud. 
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Permite pasar de un abordaje disciplinar a un abordaje multidisciplinar y de un abordaje fragmentado a un abordaje integral de los sujetos. 
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Reconoce la familia como sujeto de atención en salud y tiene en cuenta el contexto familiar en la salud de las personas. Así mismo reconoce que estos hacen parte de una comunidad.
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p Plantea intervenciones integrales, complementarias y anticipatorias, que contribuyan a la garantía de condiciones para el desarrollo humano, teniendo en cuenta las ventanas de oportunidad en el desarrollo integral de las personas en sus diferentes momentos del curso de la vida.
-      .col-lg-6.align-self-center
-        figure
-          img.img-col(src='@/assets/curso/img9.svg', alt='Texto que describa la imagen', style="width:365px;").m-auto
-
-    .row.my-5
-      .col-lg-6.order-lg-0.order-md-1.order-sm-1.align-self-center
-        figure
-          img.img-col(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen', style="width:365px;").m-auto
-
-      .col-lg-6.mb-5
-        ul.lista-ul--color
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p.mx-2 Logra la complementariedad de la atención desde la baja complejidad hasta la alta complejidad.
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p.mx-2 Reorganiza las respuestas programáticas en función de la atención integral en salud y los sujetos.
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p.mx-2 Ubican los entornos como escenarios de transformación social que puedan potenciarse como protectores y promotores de la salud y el desarrollo humano, así como en unidades de gestión donde se pueden materializar las atenciones (individuales, colectivas y poblacionales)
-          li.lista-separada 
-            i.fas.fa-check.mx-2
-            p.mx-2.mb-md-5.mb-lg-0 La operación de las RIAS reconoce el 
-              b territorio como unidad base 
-              b-none donde se integra el sistema de salud y los agentes responsables de garantizar la atención integral en salud.
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/OQ8PuL4ft1U?list=PLkc5n6npRWkj-8XuaU1dDnEtTyDkpvY7b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Son una herramienta de obligatorio cumplimiento, establecidas en el marco de la Política PAIS y la Resolución 3202 de 2016, que contribuyen a que las personas, familias y comunidades a que alcancen resultados en salud teniendo en cuenta las particularidades del territorio donde viven, se relacionan y se desarrollan. Permiten orientar y ordenar la gestión de la atención integral en salud a cargo de los actores del Sistema General  de Seguridad Social en Salud -SGSSS- de manera continua y consecuente con la situación y características de cada territorio, así como la gestión intersectorial para la afectación de los determinantes sociales de la salud. Integran además las atenciones individuales, colectivas y poblacionales para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación y plantea las acciones de cuidado que se esperan del individuo para el mantenimiento o recuperación de su salud.    
 
     .custom_hr 
     
