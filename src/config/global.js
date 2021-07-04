@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Rutas Integrales de Atención en Salud (RIAS)',
     descripcionCurso:
-      'En este módulo se abordará el marco normativo y conceptual de la atención integral en salud, las RIAS (Rutas Integrales de Atención en Salud) como herramienta de la Política, sus atributos y tipos para centrarse por último en la Ruta Integral para la Promoción y el Mantenimiento de la Salud, relacionando los resultados en salud con las intervenciones que llegan a las personas, familias y comunidades y la gestión que es necesaria para que ello ocurra.',
+      'En este componente se abordará el marco normativo y conceptual de la atención integral en salud, las RIAS (Rutas Integrales de Atención en Salud) como herramienta de la Política, sus atributos y tipos para centrarse por último en la Ruta Integral para la Promoción y el Mantenimiento de la Salud, relacionando los resultados en salud con las intervenciones que llegan a las personas, familias y comunidades y la gestión que es necesaria para que ello ocurra.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -135,124 +135,10 @@ export default {
       },
     ],
   },
-  creditos: {
-    liderEquipo: {
-      nombre: 'María Camila Garcia Santamaría',
-      cargo: 'Líder del equipo',
-    },
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Mónica Genith Castro',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Lía Marcela Gúiza',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Natalia Munarth',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Magaly Jaimes',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Mily Ramírez',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Aura Lucia Toloza',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Leidy Carolina Arias Aguirre',
-        cargo: 'Experta temática',
-        centro: 'Ministerio de Salud',
-        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
-      },
-      {
-        nombre: 'Sandra Patricica Hoyos Sepúlveda',
-        cargo: 'Corrección de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: ['Carlos Julian Ramirez'],
-        cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: [
-          'Camilo Andrés Villamizar Lizcano',
-          'José Jaime Luis Tang Pinzón',
-          'María Natalia Maldonado Delgado',
-          'Wilson Andres Arenales Cáceres',
-          'Zuleidy Maria Ruiz Torres',
-        ],
-        cargo: 'Producción Audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: ['Camilo Andres Bolaño Rey', 'Daniel Ricardo Mutis Gómez'],
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
-      },
-    ],
-  },
   referencias: [
     {
       referencia:
-        'Congreso de Colombia  (2015). Ley Estatutaria 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Disponible en: ',
+        'Congreso de Colombia (2015). Ley Estatutaria 1751 de 2015. Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones. 16 de febrero de 2015. Disponible en: ',
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/Ley%201751%20de%202015.pdf',
     },
@@ -280,7 +166,7 @@ export default {
     },
     {
       referencia:
-        ' Ministerio de Salud y Protección Social (2018). Gestión integral del riesgo en salud. Perspectiva desde el Aseguramiento en el contexto de la Política de Atención Integral en Salud. Documento de trabajo [Archivo PDF].  Disponible en: ',
+        'Ministerio de Salud y Protección Social (2018). Gestión integral del riesgo en salud. Perspectiva desde el Aseguramiento en el contexto de la Política de Atención Integral en Salud. Documento de trabajo [Archivo PDF].  Disponible en: ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/DOA/girs-prespectiva-desde-aseguramiento.pdf',
     },
@@ -362,7 +248,7 @@ export default {
   complementario: [
     {
       texto:
-        'Ministerio de Salud Colombia.. [MinSaludCol]. (2016, 10 de junio). Características.[video]. YouTube. ',
+        'Ministerio de Salud Colombia.[MinSaludCol]. (2016, 10 de junio). Características.[video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Kw9thabRbzc',
     },
@@ -391,4 +277,144 @@ export default {
       link: 'https://www.youtube.com/watch?v=nN0KjC-X4EQ&t=1104s',
     },
   ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Mónica Genith Castro',
+        cargo: 'Experta temática',
+        centro: 'Ministerio de Salud',
+        regional: 'Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Lía Marcela Gúiza',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Natalia Munarth',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Magaly Jaimes',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Mily Ramírez',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Aura Lucia Toloza',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Experta temática',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - Grupo curso de vida',
+      },
+      {
+        nombre: 'Sandra Patricica Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Carlos Julian Ramirez'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Villamizar Lizcano',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Natalia Maldonado Delgado',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andres Arenales Cáceres',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andres Bolaño Rey',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniel Ricardo Mutis Gómez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Revisora de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación de recursos'],
+        centro: 'Centro de comercio y servicios - Regional Tolima',
+      },
+    ],
+  },
 }

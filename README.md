@@ -1,8 +1,8 @@
-# **Rutas Integrales de Atención en Salud (RIAS)**
+# **Analítica Web**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/PROMOCION_MANTENIMIENTO_SALUD_CF1/](https://ecored-sena.github.io/PROMOCION_MANTENIMIENTO_SALUD_CF1/)
+[https://ecored-sena.github.io/522306_CF15_TECNOLOGIA_DESARROLLO_PUBLICITARIO/](https://ecored-sena.github.io/522306_CF15_TECNOLOGIA_DESARROLLO_PUBLICITARIO/)
 
 #
 

@@ -55,7 +55,7 @@
           figure.mb-3
               img(src='@/assets/curso/img12.svg', alt='Texto que describa la imagen')
           .tarjeta-numerada__cuadro.p-3
-            p.text-center Fisico y Motor / Socio - emocional / Cognitivo
+            p.text-center Físico y Motor / Socio - emocional / Cognitivo
 
         
     ol.lista-ol--cuadro
@@ -193,7 +193,7 @@
           .cardV-avatar__icon
             img(src='@/assets/curso/img17.svg' alt='AvatarTop')
           .cardV-avatar__body
-            h5.text-center Transtornos Asociados al uso de Spa  
+            h5.text-center Trastornos Asociados al uso de Spa  
 
       .col-md-6.col-lg-4.mb-5
         .cardV-avatar

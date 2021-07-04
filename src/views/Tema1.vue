@@ -54,7 +54,7 @@
         .h4 La Política de Atención Integral en 
           br 
           |Salud es entonces
-        p.mb-5 el conjunto de enfoques, estrategias, procesos, instrumentos, acciones y recursos que 
+        p.mb-5 El conjunto de enfoques, estrategias, procesos, instrumentos, acciones y recursos que 
           b centra el sistema de salud en el ciudadano, 
           b-none permite atender a la naturaleza y contenido del 
           b derecho fundamental a la salud y orienta los objetivos del sistema de salud para generar mejores condiciones de salud de la población,  ordenando la intervención de los integrantes del sistema de salud y de otros actores 
@@ -83,7 +83,7 @@
 
      
     .h4.titulo-rosa.mt-5 Gestión integral del riesgo en salud
-    p Es una estrategia transversal que convoca a todos los actores y otros sectores a concurrir en la accion anticipada, que permite modular o evitar la aparición de enfermedades o alteraciones; la identificación temprana cuando se presentan y su abordaje integral para disminuir los impactos en la salud y el desarrollo a través de acciones que van desde la prevención hasta la paliación. Implica el seguimiento y monitoreo de los riesgos para la salud, así como de los resultados en los sujetos hacia donde está orientada la acción. 
+    p Es una estrategia transversal que convoca a todos los actores y otros sectores a concurrir en la acción anticipada, que permite modular o evitar la aparición de enfermedades o alteraciones; la identificación temprana cuando se presentan y su abordaje integral para disminuir los impactos en la salud y el desarrollo a través de acciones que van desde la prevención hasta la paliación. Implica el seguimiento y monitoreo de los riesgos para la salud, así como de los resultados en los sujetos hacia donde está orientada la acción. 
       br
       br
       |Además, propicia mejorar la experiencia de los sujetos en su interacción con los servicios de salud y fortalecer la sostenibilidad del sistema. Tiene un componente colectivo que se desarrolla desde las intervenciones colectivas y está a cargo de la entidad territorial y un componente individual que está en cabeza de la Entidades Promotoras de  Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
@@ -162,14 +162,5 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Gd9h7oBM5KA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
 </template>
-
-<script>
-export default {
-  name: 'Tema1',
-  data: () => ({
-    // variables de vue
-  }),
-}
-</script>
 
 <style lang="sass" scoped></style>

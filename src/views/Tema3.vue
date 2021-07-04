@@ -111,7 +111,7 @@
           tr
             th Primera infancia
             th Infancia 
-            th Adolesencia 
+            th Adolescencia 
             th Juventud
             th Adultez
             th Vejez
@@ -127,7 +127,7 @@
           tr.tr-center
             <td colspan="6"> Personas con adecuado estado nutriconal</td> 
           tr.tr-center
-            <td colspan="6"> Personas sin problemas y transtornos en salud mental</td> 
+            <td colspan="6"> Personas sin problemas y trastornos en salud mental</td> 
           tr.tr-center
             <td colspan="6"> Personas sin morbilidad evitable</td> 
           tr.tr-center
@@ -327,7 +327,7 @@
             b Suministro de medicamentos e insumos relacionados con eventos de interés en salud pública:  
           p Enfermedades infecciosas desatendidas (desparasitación masiva, tracoma); estrategia de reducción de daños y riesgos en personas que se inyectan drogas, otros eventos de interés en salud pública definidos por el Ministerio de Salud y Protección Social.
 
-    p Estas intervenciones, procedimientos o actividades están ordenadas por entorno, responden de manera especial a la caracterizacion y deben considerar a los sujetos, familia y comunidades que habitan o desarrollan su trayectoria en ese entorno.
+    p Estas intervenciones, procedimientos o actividades están ordenadas por entorno, responden de manera especial a la caracterización y deben considerar a los sujetos, familia y comunidades que habitan o desarrollan su trayectoria en ese entorno.
 
     br
     .h4.titulo-rosa.mt-3 Intervenciones colectivas en entornos - RPMS
