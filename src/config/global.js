@@ -123,11 +123,7 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -246,24 +242,6 @@ export default {
     },
   ],
   complementario: [
-    {
-      texto:
-        'Ministerio de Salud Colombia.[MinSaludCol]. (2016, 10 de junio). Características.[video]. YouTube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Kw9thabRbzc',
-    },
-    {
-      texto:
-        'Ministerio de Salud Colombia.. [MinSaludCol].  (2016, 10 de junio) Antecedentes. [video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=hUyqCY6G1iY&feature=youtu.be',
-    },
-    {
-      texto:
-        'Ministerio de Salud Colombia.. [MinSaludCol].  (2016, 10 de junio) Alcances. [video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Gd9h7oBM5KA',
-    },
     {
       texto:
         'May, L. [Luciano May Segovia]. (2016, 13 de diciembre). Módulo 2 audio. Política de Atención Integral en Salud PAIS.  [video]. YouTube.',
